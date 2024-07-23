@@ -1,0 +1,15 @@
+{
+  "name": "hso-theme-2024",
+  "version": "1.0.0",
+  "description": "WP Theme for HSO organization website",
+  "main": "index.js",
+  "scripts": {
+    "test": "test",
+    "start": "wp-env start"
+  },
+  "author": "Sean Standen - HSO",
+  "license": "ISC",
+  "devDependencies": {
+    "@wordpress/env": "^10.3.0"
+  }
+}
