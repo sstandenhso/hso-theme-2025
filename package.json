@@ -5,11 +5,18 @@
   "main": "index.js",
   "scripts": {
     "test": "test",
-    "start": "wp-env start"
+    "start": "wp-scripts start",
+    "build": "wp-scripts build"
   },
   "author": "Sean Standen - HSO",
   "license": "ISC",
   "devDependencies": {
-    "@wordpress/env": "^10.3.0"
+    "@wordpress/scripts": "^28.3.0",
+    "path": "^0.12.7",
+    "webpack-remove-empty-scripts": "^1.0.4"
+  },
+  "dependencies": {
+    "bootstrap": "^5.3.3",
+    "sass": "^1.77.8"
   }
 }
