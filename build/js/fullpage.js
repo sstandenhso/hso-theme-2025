@@ -1,8 +1,5 @@
 /******/ (() => { // webpackBootstrap
 /******/ 	"use strict";
-/*!****************************!*\
-  !*** ./src/js/fullpage.js ***!
-  \****************************/
 //
 // fullpage.js
 // Theme module
@@ -66,4 +63,3 @@
 })();
 /******/ })()
 ;
-//# sourceMappingURL=fullpage.js.map

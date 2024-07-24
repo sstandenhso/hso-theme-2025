@@ -1,8 +1,5 @@
 /******/ (() => { // webpackBootstrap
 /******/ 	"use strict";
-/*!**************************!*\
-  !*** ./src/js/slider.js ***!
-  \**************************/
 //
 // slider.js
 // Theme module
@@ -96,4 +93,3 @@
 })();
 /******/ })()
 ;
-//# sourceMappingURL=slider.js.map

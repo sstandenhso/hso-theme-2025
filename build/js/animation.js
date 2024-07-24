@@ -1,8 +1,5 @@
 /******/ (() => { // webpackBootstrap
 /******/ 	"use strict";
-/*!*****************************!*\
-  !*** ./src/js/animation.js ***!
-  \*****************************/
 //
 // animation.js
 // Theme component
@@ -72,4 +69,3 @@
 })();
 /******/ })()
 ;
-//# sourceMappingURL=animation.js.map

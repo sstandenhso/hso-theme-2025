@@ -1,8 +1,5 @@
 /******/ (() => { // webpackBootstrap
 /******/ 	"use strict";
-/*!***********************!*\
-  !*** ./src/js/faq.js ***!
-  \***********************/
 //
 // faq.js
 // Theme module
@@ -40,4 +37,3 @@
 })();
 /******/ })()
 ;
-//# sourceMappingURL=faq.js.map

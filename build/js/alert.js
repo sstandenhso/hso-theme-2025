@@ -1,8 +1,5 @@
 /******/ (() => { // webpackBootstrap
 /******/ 	"use strict";
-/*!*************************!*\
-  !*** ./src/js/alert.js ***!
-  \*************************/
 //
 // alerts.js
 // Theme module
@@ -42,4 +39,3 @@
 })();
 /******/ })()
 ;
-//# sourceMappingURL=alert.js.map

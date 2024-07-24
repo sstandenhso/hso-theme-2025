@@ -1,8 +1,5 @@
 /******/ (() => { // webpackBootstrap
 /******/ 	"use strict";
-/*!*************************!*\
-  !*** ./src/js/modal.js ***!
-  \*************************/
 //
 // modal.js
 // Theme module
@@ -40,4 +37,3 @@
 })();
 /******/ })()
 ;
-//# sourceMappingURL=modal.js.map
