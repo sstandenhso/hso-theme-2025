@@ -13,7 +13,9 @@ module.exports = {
 	...defaultConfig,
 	...{
 		entry: {
+            //css
 			'css/theme': path.resolve( process.cwd(), 'src/scss', 'theme.scss' ),
+            //js
             'js/alert': path.resolve( process.cwd(), 'src/js', 'alert.js' ),
             'js/animation': path.resolve( process.cwd(), 'src/js', 'animation.js' ),
             'js/code': path.resolve( process.cwd(), 'src/js', 'code.js' ),
