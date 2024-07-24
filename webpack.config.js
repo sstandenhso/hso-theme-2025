@@ -6,6 +6,7 @@ const RemoveEmptyScriptsPlugin = require( 'webpack-remove-empty-scripts' );
 
 // Utilities.
 const path = require( 'path' );
+const glob = require( 'glob' );
 
 // Add any a new entry point by extending the webpack config.
 module.exports = {
@@ -13,6 +14,20 @@ module.exports = {
 	...{
 		entry: {
 			'css/theme': path.resolve( process.cwd(), 'src/scss', 'theme.scss' ),
+            'js/alert': path.resolve( process.cwd(), 'src/js', 'alert.js' ),
+            'js/animation': path.resolve( process.cwd(), 'src/js', 'animation.js' ),
+            'js/code': path.resolve( process.cwd(), 'src/js', 'code.js' ),
+            'js/dropdown': path.resolve( process.cwd(), 'src/js', 'dropdown.js' ),
+            'js/faq': path.resolve( process.cwd(), 'src/js', 'faq.js' ),
+            'js/fullpage': path.resolve( process.cwd(), 'src/js', 'fullpage.js' ),
+            'js/map': path.resolve( process.cwd(), 'src/js', 'map.js' ),
+            'js/modal': path.resolve( process.cwd(), 'src/js', 'modal.js' ),
+            'js/navbar': path.resolve( process.cwd(), 'src/js', 'navbar.js' ),
+            'js/newsletter': path.resolve( process.cwd(), 'src/js', 'newsletter.js' ),
+            'js/polyfill': path.resolve( process.cwd(), 'src/js', 'newsletter.js' ),
+            'js/slider': path.resolve( process.cwd(), 'src/js', 'slider.js' ),
+            'js/testimonials': path.resolve( process.cwd(), 'src/js', 'testimonials.js' ),
+            'js/year': path.resolve( process.cwd(), 'src/js', 'year.js' )
 		},
 		plugins: [
 			// Include WP's plugin config.
