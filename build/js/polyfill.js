@@ -1,8 +1,5 @@
 /******/ (() => { // webpackBootstrap
 /******/ 	"use strict";
-/*!******************************!*\
-  !*** ./src/js/newsletter.js ***!
-  \******************************/
 //
 // newsletter.js
 // Theme component
@@ -111,4 +108,3 @@
 })();
 /******/ })()
 ;
-//# sourceMappingURL=polyfill.js.map

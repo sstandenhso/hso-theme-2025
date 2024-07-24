@@ -1,8 +1,5 @@
 /******/ (() => { // webpackBootstrap
 /******/ 	"use strict";
-/*!**************************!*\
-  !*** ./src/js/navbar.js ***!
-  \**************************/
 //
 // navbar.js
 // Theme module
@@ -89,4 +86,3 @@
 })();
 /******/ })()
 ;
-//# sourceMappingURL=navbar.js.map
