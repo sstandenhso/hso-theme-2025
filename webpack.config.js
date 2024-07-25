@@ -5,6 +5,7 @@ const defaultConfig = require( '@wordpress/scripts/config/webpack.config' );
 const RemoveEmptyScriptsPlugin = require( 'webpack-remove-empty-scripts' );
 const CssMinimizerPlugin = require("css-minimizer-webpack-plugin");
 const TerserPlugin = require("terser-webpack-plugin");
+const CopyPlugin = require("copy-webpack-plugin");
 
 
 // Utilities.
@@ -52,7 +53,12 @@ module.exports = {
 			// sets it after WP has generated its `*.asset.php` file.
 			new RemoveEmptyScriptsPlugin( {
 				stage: RemoveEmptyScriptsPlugin.STAGE_AFTER_PROCESS_PLUGINS
-			} )
+			} ),
+            new CopyPlugin({
+                patterns: [
+                  { from: "assets/fonts", to: "assets/fonts" },
+                ],
+              }),
 		]
 	},
     stats: {
