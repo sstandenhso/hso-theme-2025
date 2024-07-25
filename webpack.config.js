@@ -4,6 +4,7 @@ const defaultConfig = require( '@wordpress/scripts/config/webpack.config' );
 // Plugins.
 const RemoveEmptyScriptsPlugin = require( 'webpack-remove-empty-scripts' );
 const CssMinimizerPlugin = require("css-minimizer-webpack-plugin");
+const TerserPlugin = require("terser-webpack-plugin");
 
 
 // Utilities.
@@ -12,7 +13,7 @@ const glob = require( 'glob' );
 
 // Add any a new entry point by extending the webpack config.
 module.exports = {
-    mode: 'production',
+    // mode: 'production',
 	...defaultConfig,
     optimization: {
         minimizer: [
@@ -20,6 +21,8 @@ module.exports = {
           // `...`,
           new CssMinimizerPlugin(),
         ],
+        minimize: true,
+        minimizer: [new TerserPlugin()],
       },
 	...{
 		entry: {
