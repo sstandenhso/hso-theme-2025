@@ -212,7 +212,7 @@
 					],
 					"fontFamily": "\"Inter\", sans-serif",
 					"name": "Inter",
-					"slug": "body"
+					"slug": "inter"
 				},
 				{
 					"fontFace": [
@@ -238,6 +238,115 @@
 					"fontFamily": "Cardo",
 					"name": "Cardo",
 					"slug": "heading"
+				},
+				{
+					"fontFace": [
+						{
+							"fontFamily": "Theinhardt",
+							"fontStyle": "normal",
+							"fontWeight": "100",
+							"src": ["file:./assets/fonts/Theinhardt/theinhardt-hairline-webfont.woff2"]
+						},
+						{
+							"fontFamily": "Theinhardt",
+							"fontStyle": "italic",
+							"fontWeight": "100",
+							"src": ["file:./assets/fonts/Theinhardt/theinhardt-hairlineita-webfont.woff2"]
+						},
+						{
+							"fontFamily": "Theinhardt",
+							"fontStyle": "normal",
+							"fontWeight": "200",
+							"src": ["file:./assets/fonts/Theinhardt/theinhardt-ultralight-webfont.woff2"]
+						},
+						{
+							"fontFamily": "Theinhardt",
+							"fontStyle": "italic",
+							"fontWeight": "200",
+							"src": ["file:./assets/fonts/Theinhardt/theinhardt-ultralightita-webfont.woff2"]
+						},
+						{
+							"fontFamily": "Theinhardt",
+							"fontStyle": "normal",
+							"fontWeight": "300",
+							"src": ["file:./assets/fonts/Theinhardt/theinhardt-thin-webfont.woff2"]
+						},
+						{
+							"fontFamily": "Theinhardt",
+							"fontStyle": "normal",
+							"fontWeight": "400",
+							"src": ["file:./assets/fonts/Theinhardt/theinhardt-light-webfont.woff2"]
+						},
+						{
+							"fontFamily": "Theinhardt",
+							"fontStyle": "italic",
+							"fontWeight": "400",
+							"src": ["file:./assets/fonts/Theinhardt/theinhardt-lightita-webfont.woff2"]
+						},
+						{
+							"fontFamily": "Theinhardt",
+							"fontStyle": "normal",
+							"fontWeight": "500",
+							"src": ["file:./assets/fonts/Theinhardt/theinhardt-regular-webfont.woff2"]
+						},
+						{
+							"fontFamily": "Theinhardt",
+							"fontStyle": "italic",
+							"fontWeight": "500",
+							"src": ["file:./assets/fonts/Theinhardt/theinhardt-regularita-webfont.woff2"]
+						},
+						{
+							"fontFamily": "Theinhardt",
+							"fontStyle": "normal",
+							"fontWeight": "600",
+							"src": ["file:./assets/fonts/Theinhardt/theinhardt-medium-webfont.woff2"]
+						},
+						{
+							"fontFamily": "Theinhardt",
+							"fontStyle": "italic",
+							"fontWeight": "600",
+							"src": ["file:./assets/fonts/Theinhardt/theinhardt-mediumita-webfont.woff2"]
+						},
+						{
+							"fontFamily": "Theinhardt",
+							"fontStyle": "normal",
+							"fontWeight": "700",
+							"src": ["file:./assets/fonts/Theinhardt/theinhardt-bold-webfont.woff2"]
+						},
+						{
+							"fontFamily": "Theinhardt",
+							"fontStyle": "italic",
+							"fontWeight": "700",
+							"src": ["file:./assets/fonts/Theinhardt/theinhardt-boldita-webfont.woff2"]
+						},
+						{
+							"fontFamily": "Theinhardt",
+							"fontStyle": "normal",
+							"fontWeight": "800",
+							"src": ["file:./assets/fonts/Theinhardt/theinhardt-heavy-webfont.woff2"]
+						},
+						{
+							"fontFamily": "Theinhardt",
+							"fontStyle": "italic",
+							"fontWeight": "800",
+							"src": ["file:./assets/fonts/Theinhardt/theinhardt-heavyita-webfont.woff2"]
+						},
+						{
+							"fontFamily": "Theinhardt",
+							"fontStyle": "normal",
+							"fontWeight": "900",
+							"src": ["file:./assets/fonts/Theinhardt/theinhardt-black-webfont.woff2"]
+						},
+						{
+							"fontFamily": "Theinhardt",
+							"fontStyle": "italic",
+							"fontWeight": "900",
+							"src": ["file:./assets/fonts/Theinhardt/theinhardt-blackita-webfont.woff2"]
+						}
+					],
+					"fontFamily": "Theinhardt",
+					"name": "Theinhardt",
+					"slug": "body"
 				},
 				{
 					"fontFamily": "-apple-system, BlinkMacSystemFont, avenir next, avenir, segoe ui, helvetica neue, helvetica, Cantarell, Ubuntu, roboto, noto, arial, sans-serif",
