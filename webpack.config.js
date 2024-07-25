@@ -5,12 +5,14 @@ const defaultConfig = require( '@wordpress/scripts/config/webpack.config' );
 const RemoveEmptyScriptsPlugin = require( 'webpack-remove-empty-scripts' );
 const CssMinimizerPlugin = require("css-minimizer-webpack-plugin");
 
+
 // Utilities.
 const path = require( 'path' );
 const glob = require( 'glob' );
 
 // Add any a new entry point by extending the webpack config.
 module.exports = {
+    mode: 'production',
 	...defaultConfig,
     optimization: {
         minimizer: [
