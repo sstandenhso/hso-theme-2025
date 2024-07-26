@@ -3,30 +3,6 @@
 // Extended from Bootstrap
 //
 
-// Import fonts
-
-// @font-face {
-//   font-family: "Theinhardt";
-//   font-weight: 400;
-//   src: url(../fonts/Objective/Objective-Regular.woff2) format("woff2"),
-//        url(../fonts/Objective/Objective-Regular.woff) format("woff");
-// }
-
-// @font-face {
-//   font-family: "Objective";
-//   font-weight: 500;
-//   src: url(../fonts/Objective/Objective-Medium.woff2) format("woff2"),
-//        url(../fonts/Objective/Objective-Medium.woff) format("woff");
-// }
-
-// @font-face {
-//   font-family: "Objective";
-//   font-weight: 600;
-//   src: url(../fonts/Objective/Objective-Bold.woff2) format("woff2"),
-//        url(../fonts/Objective/Objective-Bold.woff) format("woff");
-// }
-
-
 // Headings
 
 h1, h2, h3, h4, h5, h6,
@@ -105,7 +81,7 @@ h1, .h1,
   &:before {
     content: '\f105';
     margin-right: 1em;
-    font-family: 'Font Awesome 5 Free';
+    font-family: 'Theinhardt', sans-serif;
     font-weight: 900;
     color: $primary;
   }
