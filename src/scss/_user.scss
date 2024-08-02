@@ -2,3 +2,33 @@
 // user.scss
 // Use this to write your custom SCSS
 //
+
+#hso-logo-link {
+    height: 30px;
+    width: auto;
+
+    @media screen and (max-width: 500px) {
+        height: 18px;
+        width: auto;
+    }
+}
+
+#ot-logo-link {
+    height: 27px;
+    width: auto;
+
+    @media screen and (max-width: 500px) {
+        height: 18px;
+        width: auto;
+    }
+}
+
+#smilers-logo-link {
+    height: 35px;
+    width: auto;
+
+    @media screen and (max-width: 500px) {
+        height: 20px;
+        width: auto;
+    }
+}

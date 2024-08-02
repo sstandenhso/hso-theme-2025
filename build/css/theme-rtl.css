@@ -15588,3 +15588,36 @@ h1, .h1,
   margin: 1rem 0 1.5rem;
   border-top: 2px solid #f5ba4b;
 }
+
+#hso-logo-link {
+  height: 30px;
+  width: auto;
+}
+@media screen and (max-width: 500px) {
+  #hso-logo-link {
+    height: 18px;
+    width: auto;
+  }
+}
+
+#ot-logo-link {
+  height: 27px;
+  width: auto;
+}
+@media screen and (max-width: 500px) {
+  #ot-logo-link {
+    height: 18px;
+    width: auto;
+  }
+}
+
+#smilers-logo-link {
+  height: 35px;
+  width: auto;
+}
+@media screen and (max-width: 500px) {
+  #smilers-logo-link {
+    height: 20px;
+    width: auto;
+  }
+}
