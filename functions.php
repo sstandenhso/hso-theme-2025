@@ -214,6 +214,7 @@ add_action( 'init', 'twentytwentyfour_pattern_categories' );
 function register_custom_theme_stylesheet() {
 	wp_enqueue_style('incline_bootstrap_theme_stylesheet', get_theme_file_uri('build/css/theme.css'), array());
 }
+add_action( 'init', 'register_custom_theme_stylesheet' );
 
 function register_custom_javascript() {
 	wp_enqueue_script('alert', get_theme_file_uri('build/js/alert.js'));
@@ -231,3 +232,5 @@ function register_custom_javascript() {
 	wp_enqueue_script('testimonials', get_theme_file_uri('build/js/testimonials.js'));
 	wp_enqueue_script('year', get_theme_file_uri('build/js/year.js'));
 }
+
+add_action( 'init', 'register_custom_javascript' );
