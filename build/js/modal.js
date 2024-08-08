@@ -1,3 +1,1 @@
-/*! For license information please see modal.js.LICENSE.txt */
 (()=>{"use strict";var e;e=document.querySelector(".modal"),$(e).on("shown.bs.modal hide.bs.modal",(function(e){var o=this.querySelector("video");o&&"shown"==e.type?function(e){e.play()}(o):o&&"hide"==e.type&&function(e){e.pause()}(o)}))})();
-//# sourceMappingURL=modal.js.map

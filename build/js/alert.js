@@ -1,3 +1,1 @@
-/*! For license information please see alert.js.LICENSE.txt */
 (()=>{"use strict";window.addEventListener("alert.show",(function(e){var t,a;t=e.detail,(a=document.createElement("div")).classList.add("alert","alert-"+t.type,"alert-fixed","fade","show"),a.innerHTML=t.message.replace("0 -",""),document.body.appendChild(a),setTimeout((function(){$(a).alert("close")}),5e3)}))})();
-//# sourceMappingURL=alert.js.map
