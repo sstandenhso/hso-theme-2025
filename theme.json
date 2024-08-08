@@ -150,6 +150,176 @@
 					"color": "#b5bdbc",
 					"name": "Accent / Five",
 					"slug": "accent-5"
+				},
+				{
+					"color": "#374151",
+					"name": "Dark Grey",
+					"slug": "dark-grey"
+				},
+				{
+					"color": "#141414",
+					"name": "HSO Grey 100",
+					"slug": "hso-grey-100"
+				},
+				{
+					"color": "#292929",
+					"name": "HSO Grey 90",
+					"slug": "hso-grey-90"
+				},
+				{
+					"color": "#3d3d3d",
+					"name": "HSO Grey 80",
+					"slug": "hso-grey-80"
+				},
+				{
+					"color": "#595959",
+					"name": "HSO Grey 70",
+					"slug": "hso-grey-70"
+				},
+				{
+					"color": "#737373",
+					"name": "HSO Grey 60",
+					"slug": "hso-grey-60"
+				},
+				{
+					"color": "#d1d1d1",
+					"name": "HSO Grey 50",
+					"slug": "hso-grey-50"
+				},
+				{
+					"color": "#dedede",
+					"name": "HSO Grey 40",
+					"slug": "hso-grey-40"
+				},
+				{
+					"color": "#ebebeb",
+					"name": "HSO Grey 30",
+					"slug": "hso-grey-30"
+				},
+				{
+					"color": "#f3f3f3",
+					"name": "HSO Grey 20",
+					"slug": "hso-grey-20"
+				},
+				{
+					"color": "#f9f9f9",
+					"name": "HSO Grey 10",
+					"slug": "hso-grey-10"
+				},
+				{
+					"color": "#e61c26",
+					"name": "HSO Red 100",
+					"slug": "hso-red-100"
+				},
+				{
+					"color": "#ff3c2e",
+					"name": "HSO Red 90",
+					"slug": "hso-red-90"
+				},
+				{
+					"color": "#ff7366",
+					"name": "HSO Red 70",
+					"slug": "hso-red-70"
+				},
+				{
+					"color": "#ff9b8c",
+					"name": "HSO Red 50",
+					"slug": "hso-red-50"
+				},
+				{
+					"color": "#ffd3cc",
+					"name": "HSO Red 30",
+					"slug": "hso-red-30"
+				},
+				{
+					"color": "#ffefed",
+					"name": "HSO Red 20",
+					"slug": "hso-red-20"
+				},
+				{
+					"color": "#fefbfb",
+					"name": "HSO Red 10",
+					"slug": "hso-red-10"
+				},
+				{
+					"color": "#0073b8",
+					"name": "HSO Blue 100",
+					"slug": "hso-blue-100"
+				},
+				{
+					"color": "#008cde",
+					"name": "HSO Blue 90",
+					"slug": "hso-blue-90"
+				},
+				{
+					"color": "#42a3de",
+					"name": "HSO Blue 70",
+					"slug": "hso-blue-70"
+				},
+				{
+					"color": "#94d1f7",
+					"name": "HSO Blue 50",
+					"slug": "hso-blue-50"
+				},
+				{
+					"color": "#ccedff",
+					"name": "HSO Blue 30",
+					"slug": "hso-blue-30"
+				},
+				{
+					"color": "#e5f5ff",
+					"name": "HSO Blue 20",
+					"slug": "hso-blue-20"
+				},
+				{
+					"color": "#f5fafc",
+					"name": "HSO Blue 10",
+					"slug": "hso-blue-10"
+				},
+				{
+					"color": "#42b8b2",
+					"name": "Smilers Green",
+					"slug": "smilers-green"
+				},
+				{
+					"color": "#009ca2",
+					"name": "Motion Green",
+					"slug": "motion-green"
+				},
+				{
+					"color": "#543f9a",
+					"name": "SLX Purple",
+					"slug": "slx-purple"
+				},
+				{
+					"color": "#bf311a",
+					"name": "MS Wires Brown",
+					"slug": "ms-wires-brown"
+				},
+				{
+					"color": "#720a25",
+					"name": "MS Expansion Brown",
+					"slug": "ms-expansion-brown"
+				},
+				{
+					"color": "#bf4f99",
+					"name": "Infinity Violet",
+					"slug": "infinity-violet"
+				},
+				{
+					"color": "#00a6a6",
+					"name": "Carriere Green",
+					"slug": "carriere-green"
+				},
+				{
+					"color": "#4a63e3",
+					"name": "MTO Purple",
+					"slug": "mto-purple"
+				},
+				{
+					"color": "#00a5db",
+					"name": "Sagittal Blue",
+					"slug": "sagittal-blue"
 				}
 			]
 		},
