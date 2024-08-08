@@ -12,19 +12,54 @@
 // Color system
 //
 
+//HSO Grey Colors
 $white: #fff !default;
-$gray-100: #f8f9fa !default;
-$gray-200: #e9ecef !default;
-$gray-300: #dee2e6 !default;
-$gray-400: #ced4da !default;
-$gray-500: #adb5bd !default;
-$gray-600: #6c757d !default;
-$gray-700: #495057 !default;
-$gray-800: #343a40 !default;
-$gray-900: #212529 !default;
+$gray-100: #f9f9f9 !default;
+$gray-200: #f3f3f3 !default;
+$gray-300: #ebebeb !default;
+$gray-400: #dedede !default;
+$gray-500: #d1d1d1 !default;
+$gray-600: #737373 !default;
+$gray-700: #595959 !default;
+$gray-800: #3d3d3d !default;
+$gray-900: #292929 !default;
 $black: #000 !default;
 
-$primary: #f5ba4b !default;
+$hso-gray: #141414 !default;
+
+//HSO Blue Primary
+$hso-blue-100: #0073B8;
+$hso-blue-90: #008cde;
+$hso-blue-70: #42a3de;
+$hso-blue-50: #94d1f7;
+$hso-blue-30: #ccedff;
+$hso-blue-20: #e5f5ff;
+$hso-blue-10: #f5fafc;
+$primary: $hso-blue-100 !default;
+
+
+//HSO Red
+$hso-red-100: #e61c26;
+$hso-red-90: #ff3c2e;
+$hso-red-70: #ff7366;
+$hso-red-50: #ff9b8c;
+$hso-red-30: #ffd3cc;
+$hso-red-20: #ffefed;
+$hso-red-10: #fefbfb;
+
+//HSO Product Colors
+$smilers-green: #42b8b2;
+$motion-green: #009ca2;
+$slx-purple: #543f9a;
+$ms-wires-brown: #bf311a;
+$ms-expansion-brown: #720a25;
+$infinity-violet: #bf4f99;
+
+//Philosophies Colors
+$carriere-green: #00a6a6;
+$mto-purple: #4a63e3;
+$sagittal-blue: #00a5db;
+
 
 // The yiq lightness value that determines when the lightness of color changes from "dark" to "light". Acceptable values are between 0 and 255.
 $yiq-contrasted-threshold: 200 !default;
