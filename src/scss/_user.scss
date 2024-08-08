@@ -2,3 +2,42 @@
 // user.scss
 // Use this to write your custom SCSS
 //
+
+
+//Styling for the upper-top-bar pattern file
+#hso-logo-link a, #ot-logo-link a, #smilers-logo-link a {
+    height: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+#hso-logo-link a img {
+    height: 30px;
+    width: auto;
+
+    @media screen and (max-width: 536px) {
+        height: 18px;
+        width: auto;
+    }
+}
+
+#ot-logo-link a img {
+    height: 27px;
+    width: auto;
+
+    @media screen and (max-width: 536px) {
+        height: 18px;
+        width: auto;
+    }
+}
+
+#smilers-logo-link a img {
+    height: 35px;
+    width: auto;
+
+    @media screen and (max-width: 536px) {
+        height: 20px;
+        width: auto;
+    }
+}

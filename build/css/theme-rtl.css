@@ -15588,3 +15588,43 @@ h1, .h1,
   margin: 1rem 0 1.5rem;
   border-top: 2px solid #f5ba4b;
 }
+
+#hso-logo-link a, #ot-logo-link a, #smilers-logo-link a {
+  height: 100%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+#hso-logo-link a img {
+  height: 30px;
+  width: auto;
+}
+@media screen and (max-width: 536px) {
+  #hso-logo-link a img {
+    height: 18px;
+    width: auto;
+  }
+}
+
+#ot-logo-link a img {
+  height: 27px;
+  width: auto;
+}
+@media screen and (max-width: 536px) {
+  #ot-logo-link a img {
+    height: 18px;
+    width: auto;
+  }
+}
+
+#smilers-logo-link a img {
+  height: 35px;
+  width: auto;
+}
+@media screen and (max-width: 536px) {
+  #smilers-logo-link a img {
+    height: 20px;
+    width: auto;
+  }
+}
