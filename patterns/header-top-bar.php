@@ -12,9 +12,9 @@
 <!-- wp:group {"layout":{"type":"flex","flexWrap":"nowrap"}} -->
 <div class="wp-block-group d-flex align-items-center flex-wrap flex-sm-nowrap" id="brand-websites-navigation">
 	<!-- wp:image {"linkDestination":"custom"} -->
-	 <figure class="wp-block-image border-right px-1 px-sm-2 mb-0">
+	 <figure id="hso-logo-link" class="wp-block-image border-right px-1 px-sm-2 mb-0">
 		<a href="#">
-			<img id="hso-logo-link" src="<?php echo esc_url( get_template_directory_uri() ); ?>/assets/images/hso-black.png" alt="<?php esc_attr_e( 'Henry Schein Orthodontics', 'twentytwentyfour' ); ?>">
+			<img src="<?php echo esc_url( get_template_directory_uri() ); ?>/assets/images/hso-black.png" alt="<?php esc_attr_e( 'Henry Schein Orthodontics', 'twentytwentyfour' ); ?>">
 		</a>
 	</figure>
 	<!-- /wp:image -->
@@ -24,9 +24,9 @@
 	<!-- /wp:paragraph -->
 
 	<!-- wp:image {"linkDestination":"custom"} -->
-	 <figure class="wp-block-image border-right px-1 px-sm-2 mb-0" >
+	 <figure id="ot-logo-link" class="wp-block-image border-right px-1 px-sm-2 mb-0" >
 		 <a class="h-100" href="#">
-			<img id="ot-logo-link" src="<?php echo esc_url( get_template_directory_uri() ); ?>/assets/images/ot-black.png" alt="<?php esc_attr_e( 'Ortho Technology', 'twentytwentyfour' ); ?>">
+			<img  src="<?php echo esc_url( get_template_directory_uri() ); ?>/assets/images/ot-black.png" alt="<?php esc_attr_e( 'Ortho Technology', 'twentytwentyfour' ); ?>">
 		</a>
 	</figure>
 	<!-- /wp:image -->
@@ -36,9 +36,9 @@
 	<!-- /wp:paragraph -->
 
 	<!-- wp:image {"linkDestination":"custom"} -->
-	 <figure class="wp-block-image px-1 px-sm-2 mb-0">
+	 <figure id="smilers-logo-link" class="wp-block-image px-1 px-sm-2 my-0">
 		<a href="#">
-			 <img id="smilers-logo-link" src="<?php echo esc_url( get_template_directory_uri() ); ?>/assets/images/smilers-black.png" alt="<?php esc_attr_e( 'Smilers Expert', 'twentytwentyfour' ); ?>">
+			 <img src="<?php echo esc_url( get_template_directory_uri() ); ?>/assets/images/smilers-black.png" alt="<?php esc_attr_e( 'Smilers Expert', 'twentytwentyfour' ); ?>">
 		</a>
 	</figure>
 	<!-- /wp:image -->
