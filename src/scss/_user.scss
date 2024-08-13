@@ -55,6 +55,10 @@
     background-color: #000000 !important;
 }
 
+.has-base-2-background-color {
+    background-color: #ffffff !important;
+}
+
 .site-main-nav--desktop {
     @media screen and (max-width: 800px) {
         display: none;

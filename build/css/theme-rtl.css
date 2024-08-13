@@ -15641,6 +15641,10 @@ h1, .h1,
   background-color: #000000 !important;
 }
 
+.has-base-2-background-color {
+  background-color: #ffffff !important;
+}
+
 @media screen and (max-width: 800px) {
   .site-main-nav--desktop {
     display: none;
