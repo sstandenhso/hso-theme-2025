@@ -152,6 +152,16 @@
 					"slug": "accent-5"
 				},
 				{
+					"color": "#000000",
+					"name": "Black",
+					"slug": "black"
+				},
+				{
+					"color": "#ffffff",
+					"name": "White",
+					"slug": "white"
+				},
+				{
 					"color": "#374151",
 					"name": "Dark Grey",
 					"slug": "dark-grey"

@@ -3,6 +3,11 @@
 // Use this to write your custom SCSS
 //
 
+//Container width 1380
+.container {
+    max-width: 1380px !important;
+}
+
 
 //Styling for the upper-top-bar pattern file
 #hso-logo-link a, #ot-logo-link a, #smilers-logo-link a {
@@ -39,5 +44,29 @@
     @media screen and (max-width: 536px) {
         height: 20px;
         width: auto;
+    }
+}
+
+//Color fixes from WP
+.has-base-2-color {
+    color: #ffffff !important;
+}
+.has-black-background-color {
+    background-color: #000000 !important;
+}
+
+.has-base-2-background-color {
+    background-color: #ffffff !important;
+}
+
+.site-main-nav--desktop {
+    @media screen and (max-width: 800px) {
+        display: none;
+    }
+}
+
+.site-main-nav--mobile {
+    @media screen and (min-width: 800px) {
+        display: none;
     }
 }
