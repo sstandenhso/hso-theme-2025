@@ -234,3 +234,35 @@ function register_custom_javascript() {
 }
 
 add_action( 'init', 'register_custom_javascript' );
+
+// //Nav Menu Slide Out Animation Trigger
+// function add_nav_top_mobile( $content, array $block ) {
+// 	// script not inserted if no class match
+// 	  if ( ! has_classname( 'nav-top--mobile', $block )  ) {
+// 		return $content;
+// 	  }
+	
+// 		$script = "<script>
+// 		const items = document.querySelectorAll('.nav-top--mobile button');
+// 		items[0].addEventListener('click', e => {
+// 			e.target.nextElementSibling.style.display = 'block';
+// 		}) 
+// 		  </script>";
+	
+// 		  add_action( 'wp_footer', function() use($script) { echo $script; } , 100);
+	
+// 		return $content;
+// 	}
+// 	add_filter( 'render_block', 'add_nav_top_mobile', 10, 2 );
+	
+// 	function has_classname( string $classname, array $block ):  bool {
+// 	  if ( empty( $block['attrs'] ) ) {
+// 		return false;
+// 	  }
+// 	  $block = $block['attrs'];
+// 	  if ( empty( $block['className'] ) ) {
+// 		return false;
+// 	  }
+// 	  $classes = explode( ' ', $block['className'] );
+// 	  return in_array( $classname, $classes, true );
+// 	}
