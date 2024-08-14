@@ -15651,6 +15651,27 @@ h1, .h1,
   }
 }
 
+.site-main-nav--mobile .wp-block-navigation__responsive-dialog, .site-main-nav--mobile .wp-block-navigation__responsive-container-content, .site-main-nav--mobile .wp-block-navigation__responsive-container-content ul {
+  width: 100%;
+}
+.site-main-nav--mobile .site-main-nav--mobile-link {
+  padding: 10px 25px;
+  width: 100%;
+  display: block;
+}
+.site-main-nav--mobile .site-main-nav--mobile-link .wp-block-navigation-item__content {
+  display: block;
+  width: 100%;
+}
+.site-main-nav--mobile .site-main-nav--mobile-link .wp-block-navigation-item__content span {
+  display: block;
+  padding: 15px 25px;
+  width: 100%;
+  border-radius: 0.3em;
+}
+.site-main-nav--mobile .site-main-nav--mobile-link .wp-block-navigation-item__content:hover span {
+  background-color: #fff;
+}
 @media screen and (min-width: 800px) {
   .site-main-nav--mobile {
     display: none;
