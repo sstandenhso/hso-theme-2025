@@ -1243,7 +1243,7 @@
 				},
 				"typography": {
 					"fontFamily": "var(--wp--preset--font-family--heading)",
-					"fontWeight": "400",
+					"fontWeight": "600",
 					"lineHeight": "1.2"
 				}
 			},
@@ -1269,7 +1269,7 @@
 			"fontFamily": "var(--wp--preset--font-family--body)",
 			"fontSize": "var(--wp--preset--font-size--medium)",
 			"fontStyle": "normal",
-			"fontWeight": "400",
+			"fontWeight": "500",
 			"lineHeight": "1.55"
 		},
 		"css": ":where(.wp-site-blocks *:focus){outline-width:2px;outline-style:solid}"
