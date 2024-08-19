@@ -1,0 +1,49 @@
+.hso-gradient-btn .wp-element-button {
+    padding: 5px 20px;
+    border: none;
+    outline: none;
+    position: relative;
+    z-index: 1;
+    border-radius: 100px;
+    background: $hso-button-gradient;
+    color: black;
+    cursor: pointer;
+  }
+  .hso-gradient-btn .wp-element-button::before {
+    content: "";
+    position: absolute;
+    left: 1px;
+    right: 1px;
+    top: 1px;
+    bottom: 1px;
+    border-radius: 100px;
+    background-color: white;
+    z-index: -1;
+    transition: 200ms
+  }
+  .hso-gradient-btn .wp-element-button::after {
+    content: attr(data);
+    color: #000;
+    transition: 200ms;
+  }
+  
+  .hso-gradient-btn .wp-element-button:hover::before {
+    opacity: 0;
+    top: 0px;
+    right: 0px;
+    bottom: 0px;
+    left: 0px;
+  }
+  .hso-gradient-btn .wp-element-button:hover {
+    color: white;
+  }
+
+
+  //Dark BG vs Light BG
+  .hso-gradient-btn-dark .wp-element-button::before {
+    background-color: black;
+  }
+
+  .hso-gradient-btn-dark .wp-element-button {
+    color: white;
+  }

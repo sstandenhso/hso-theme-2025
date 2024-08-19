@@ -15663,7 +15663,7 @@ h1, .h1,
 
 @media screen and (max-width: 800px) {
   .site-main-nav--desktop {
-    display: none;
+    display: none !important;
   }
 }
 
@@ -15693,11 +15693,66 @@ h1, .h1,
   width: 100%;
   border-radius: 0.3em;
 }
+.site-main-nav--mobile .site-main-nav--mobile-link .wp-block-navigation-item__content:hover {
+  text-decoration: none;
+  border: none;
+}
 .site-main-nav--mobile .site-main-nav--mobile-link .wp-block-navigation-item__content:hover span {
   background-color: #fff;
 }
 @media screen and (min-width: 800px) {
   .site-main-nav--mobile {
-    display: none;
+    display: none !important;
   }
+}
+
+.hso-gradient-btn .wp-element-button {
+  padding: 5px 20px;
+  border: none;
+  outline: none;
+  position: relative;
+  z-index: 1;
+  border-radius: 100px;
+  background: linear-gradient(to left, #ff9b8c, #94d1f7);
+  color: black;
+  cursor: pointer;
+}
+
+.hso-gradient-btn .wp-element-button::before {
+  content: "";
+  position: absolute;
+  right: 1px;
+  left: 1px;
+  top: 1px;
+  bottom: 1px;
+  border-radius: 100px;
+  background-color: white;
+  z-index: -1;
+  transition: 200ms;
+}
+
+.hso-gradient-btn .wp-element-button::after {
+  content: attr(data);
+  color: #000;
+  transition: 200ms;
+}
+
+.hso-gradient-btn .wp-element-button:hover::before {
+  opacity: 0;
+  top: 0px;
+  left: 0px;
+  bottom: 0px;
+  right: 0px;
+}
+
+.hso-gradient-btn .wp-element-button:hover {
+  color: white;
+}
+
+.hso-gradient-btn-dark .wp-element-button::before {
+  background-color: black;
+}
+
+.hso-gradient-btn-dark .wp-element-button {
+  color: white;
 }

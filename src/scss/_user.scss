@@ -61,7 +61,7 @@
 
 .site-main-nav--desktop {
     @media screen and (max-width: 800px) {
-        display: none;
+        display: none !important;
     }
 }
 
@@ -108,13 +108,19 @@
             width: 100%;
             border-radius: 0.3em;
         }
+
+        &:hover {
+            text-decoration: none;
+            border: none;
+        }
+
         &:hover span {
             background-color: #fff;
         }
     }
 
     @media screen and (min-width: 800px) {
-        display: none;
+        display: none !important;
     }
 }
 
