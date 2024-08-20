@@ -47,3 +47,20 @@
   .hso-gradient-btn-dark .wp-element-button {
     color: white;
   }
+
+  .gradient-btn {
+    // border-radius: 100px;
+    overflow: hidden;
+  }
+
+  .gradient-btn .wp-element-button {
+    padding: 5px 20px;
+    border: 1px solid transparent;
+    outline: none;
+    border-radius: 100px;
+    border-image: $hso-button-gradient 1;
+    color: black;
+    background-origin: border-box;
+    background-clip: padding-box, border-box;
+    cursor: pointer;
+  }
