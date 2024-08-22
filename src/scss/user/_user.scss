@@ -8,45 +8,6 @@
     max-width: 1380px !important;
 }
 
-
-//Styling for the upper-top-bar pattern file
-#hso-logo-link a, #ot-logo-link a, #smilers-logo-link a {
-    height: 100%;
-    display: flex;
-    justify-content: center;
-    align-items: center;
-}
-
-#hso-logo-link a img {
-    height: 30px;
-    width: auto;
-
-    @media screen and (max-width: 536px) {
-        height: 18px;
-        width: auto;
-    }
-}
-
-#ot-logo-link a img {
-    height: 27px;
-    width: auto;
-
-    @media screen and (max-width: 536px) {
-        height: 18px;
-        width: auto;
-    }
-}
-
-#smilers-logo-link a img {
-    height: 35px;
-    width: auto;
-
-    @media screen and (max-width: 536px) {
-        height: 20px;
-        width: auto;
-    }
-}
-
 //Color fixes from WP
 .has-base-2-color {
     color: #ffffff !important;
@@ -58,72 +19,6 @@
 .has-base-2-background-color {
     background-color: #ffffff !important;
 }
-
-.site-main-nav--desktop {
-    @media screen and (max-width: 800px) {
-        display: none !important;
-    }
-}
-
-//Mobile Nav Slide in/out animations
-// .wp-block-navigation.nav-top--mobile .wp-block-navigation__responsive-container {
-//     animation: slide-out 0.2s forwards;
-//         -webkit-animation: slide-out 0.2s forwards;
-// }
-
-.wp-block-navigation.nav-top--mobile .wp-block-navigation__responsive-container.is-menu-open {
-    animation: slide-in 0.3s forwards;
-    -webkit-animation: slide-in 0.3s forwards;
-  }
-
-
-  //Mobile nav styling
-.site-main-nav--mobile {
-
-    //Close button
-    .wp-block-navigation__responsive-container-close {
-        padding: 20px;
-    }
-
-    //Fix some widths
-    .wp-block-navigation__responsive-dialog, .wp-block-navigation__responsive-container-content, .wp-block-navigation__responsive-container-content ul {
-        width: 100%;
-    }
-
-    //List item
-    .site-main-nav--mobile-link {
-        padding: 10px 25px;
-        width: 100%;
-        display: block;
-    }
-
-    //List item - Anchor tag
-    .site-main-nav--mobile-link .wp-block-navigation-item__content {
-        display: block;
-        width: 100%;
-
-        span {
-            display: block;
-            padding: 15px 25px;
-            width: 100%;
-            border-radius: 0.3em;
-        }
-
-        &:hover {
-            text-decoration: none;
-            border: none;
-        }
-
-        &:hover span {
-            background-color: #fff;
-        }
-    }
-
-    @media screen and (min-width: 800px) {
-        display: none !important;
-    }
-}
-
 
 //Social Media Links in Footer
 .wp-block-social-links {
