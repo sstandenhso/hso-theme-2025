@@ -15,7 +15,7 @@
 @import 'theme/functions';
 
 // Custom variables
-@import 'user-variables';
+@import 'user/user-variables';
 
 // Theme variables
 @import 'theme/variables';
@@ -27,7 +27,7 @@
 @import 'theme/theme';
 
 // Custom core
-@import 'user';
+@import 'user/user';
 
 //Button Custom
-@import 'user-button'
+@import 'user/user-button'
