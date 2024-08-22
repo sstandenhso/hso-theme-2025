@@ -1,0 +1,15 @@
+.block-spacing-20px .wp-block-column {
+    @media  screen and (max-width: 830px) {
+        padding-bottom: 20px;
+    }
+}
+
+.footer-bottom-section {
+    @media screen and (max-width: 830px) {
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        text-align: center;
+        padding-top: 25px !important;
+    }
+}
