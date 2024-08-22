@@ -15841,4 +15841,18 @@ h1, .h1,
   justify-content: center;
 }
 
+@media screen and (max-width: 830px) {
+  .banner-hero {
+    padding-top: 100px !important;
+  }
+  .banner-hero .banner-hero--inner-content-container .wp-block-columns-is-layout-flex {
+    padding-top: 100px !important;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+  }
+}
+
 /*# sourceMappingURL=theme.css.map*/
