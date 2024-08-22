@@ -1,0 +1,15 @@
+.banner-hero--inner-content-container {
+    align-items: center;
+
+    .banner-hero--left-col {
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+    }
+
+    .banner-hero--right-col {
+        display: flex;
+        align-items: center;
+        justify-content: center;
+    }
+}

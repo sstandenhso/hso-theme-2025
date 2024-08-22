@@ -15691,6 +15691,7 @@ h1, .h1,
   background-origin: border-box;
   background-clip: padding-box, border-box;
   cursor: pointer;
+  text-transform: uppercase;
 }
 
 #hso-logo-link a, #ot-logo-link a, #smilers-logo-link a {
@@ -15798,4 +15799,18 @@ h1, .h1,
 }
 .footer-bottom-section a:hover {
   color: #94d1f7 !important;
+}
+
+.banner-hero--inner-content-container {
+  align-items: center;
+}
+.banner-hero--inner-content-container .banner-hero--left-col {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+}
+.banner-hero--inner-content-container .banner-hero--right-col {
+  display: flex;
+  align-items: center;
+  justify-content: center;
 }
