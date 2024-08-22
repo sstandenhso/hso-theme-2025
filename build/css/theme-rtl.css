@@ -15706,6 +15706,10 @@ h1, .h1,
   }
 }
 
+.wp-block-social-links {
+  list-style-type: none;
+}
+
 .hso-gradient-btn .wp-element-button {
   padding: 5px 20px;
   border: none;
