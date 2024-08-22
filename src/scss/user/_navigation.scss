@@ -1,0 +1,65 @@
+
+.site-main-nav--desktop {
+    @media screen and (max-width: 800px) {
+        display: none !important;
+    }
+}
+
+//Mobile Nav Slide in/out animations
+// .wp-block-navigation.nav-top--mobile .wp-block-navigation__responsive-container {
+//     animation: slide-out 0.2s forwards;
+//         -webkit-animation: slide-out 0.2s forwards;
+// }
+
+.wp-block-navigation.nav-top--mobile .wp-block-navigation__responsive-container.is-menu-open {
+    animation: slide-in 0.3s forwards;
+    -webkit-animation: slide-in 0.3s forwards;
+  }
+
+
+  //Mobile nav styling
+.site-main-nav--mobile {
+
+    //Close button
+    .wp-block-navigation__responsive-container-close {
+        padding: 20px;
+    }
+
+    //Fix some widths
+    .wp-block-navigation__responsive-dialog, .wp-block-navigation__responsive-container-content, .wp-block-navigation__responsive-container-content ul {
+        width: 100%;
+    }
+
+    //List item
+    .site-main-nav--mobile-link {
+        padding: 10px 25px;
+        width: 100%;
+        display: block;
+    }
+
+    //List item - Anchor tag
+    .site-main-nav--mobile-link .wp-block-navigation-item__content {
+        display: block;
+        width: 100%;
+
+        span {
+            display: block;
+            padding: 15px 25px;
+            width: 100%;
+            border-radius: 0.3em;
+        }
+
+        &:hover {
+            text-decoration: none;
+            border: none;
+        }
+
+        &:hover span {
+            background-color: #fff;
+        }
+    }
+
+    @media screen and (min-width: 800px) {
+        display: none !important;
+    }
+}
