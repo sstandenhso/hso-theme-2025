@@ -15783,6 +15783,9 @@ h1, .h1,
     padding-bottom: 20px;
   }
 }
+.block-spacing-20px .wp-block-column a:hover {
+  color: #94d1f7;
+}
 
 @media screen and (max-width: 830px) {
   .footer-bottom-section {
@@ -15792,4 +15795,7 @@ h1, .h1,
     text-align: center;
     padding-top: 25px !important;
   }
+}
+.footer-bottom-section a:hover {
+  color: #94d1f7 !important;
 }

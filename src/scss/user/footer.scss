@@ -2,6 +2,10 @@
     @media  screen and (max-width: 830px) {
         padding-bottom: 20px;
     }
+
+    a:hover {
+        color: $hso-blue-50;
+    }
 }
 
 .footer-bottom-section {
@@ -11,5 +15,9 @@
         justify-content: center;
         text-align: center;
         padding-top: 25px !important;
+    }
+
+    a:hover {
+        color: $hso-blue-50 !important;
     }
 }
