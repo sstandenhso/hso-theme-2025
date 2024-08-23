@@ -16,14 +16,18 @@
 @media screen and (max-width: 830px) {
     .banner-hero {
         padding-top: 100px !important;
+        padding-bottom: 100px !important;
         
-        .banner-hero--inner-content-container .wp-block-columns-is-layout-flex {
-            padding-top: 100px !important;
+        .wp-block-columns-is-layout-flex {
             display: flex;
-            flex-direction: column;
+            flex-direction: column-reverse;
             justify-content: center;
             align-items: center;
             text-align: center;
+        }
+
+        .wp-block-buttons {
+            justify-content: center;
         }
     }
 }

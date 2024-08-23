@@ -15760,6 +15760,11 @@ h1, .h1,
   }
 }
 
+.header-sticky {
+  position: fixed !important;
+  width: 100%;
+}
+
 @media screen and (max-width: 800px) {
   .site-main-nav--desktop {
     display: none !important;
@@ -15844,14 +15849,17 @@ h1, .h1,
 @media screen and (max-width: 830px) {
   .banner-hero {
     padding-top: 100px !important;
+    padding-bottom: 100px !important;
   }
-  .banner-hero .banner-hero--inner-content-container .wp-block-columns-is-layout-flex {
-    padding-top: 100px !important;
+  .banner-hero .wp-block-columns-is-layout-flex {
     display: flex;
-    flex-direction: column;
+    flex-direction: column-reverse;
     justify-content: center;
     align-items: center;
     text-align: center;
+  }
+  .banner-hero .wp-block-buttons {
+    justify-content: center;
   }
 }
 

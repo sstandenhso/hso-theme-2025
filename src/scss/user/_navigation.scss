@@ -1,4 +1,7 @@
-
+.header-sticky {
+    position: fixed !important;
+    width: 100%;
+}
 .site-main-nav--desktop {
     @media screen and (max-width: 800px) {
         display: none !important;
