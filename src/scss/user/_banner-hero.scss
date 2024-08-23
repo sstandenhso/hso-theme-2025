@@ -1,0 +1,33 @@
+.banner-hero--inner-content-container {
+    align-items: center;
+
+    .banner-hero--left-col {
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+    }
+
+    .banner-hero--right-col {
+        display: flex;
+        align-items: center;
+        justify-content: center;
+    }
+}
+@media screen and (max-width: 830px) {
+    .banner-hero {
+        padding-top: 100px !important;
+        padding-bottom: 100px !important;
+        
+        .wp-block-columns-is-layout-flex {
+            display: flex;
+            flex-direction: column-reverse;
+            justify-content: center;
+            align-items: center;
+            text-align: center;
+        }
+
+        .wp-block-buttons {
+            justify-content: center;
+        }
+    }
+}
