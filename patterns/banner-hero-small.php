@@ -7,7 +7,7 @@
  */
 ?>
 
-<!-- wp:cover {"url":"https://s.w.org/images/core/5.8/forest.jpg","dimRatio":60,"minHeight":800,"metadata":{"categories":["banner"],"patternName":"core/hso-large-hero","name":"HSO Large Hero"},"align":"full","style":{"elements":{"link":{"color":{"text":"var:preset|color|base-2"}}}},"textColor":"base-2"} -->
+<!-- wp:cover {"url":"https://s.w.org/images/core/5.8/forest.jpg","dimRatio":60,"minHeight":800,"metadata":{"categories":["banner"],"patternName":"core/hso-small-hero","name":"HSO Small Hero"},"align":"full","style":{"elements":{"link":{"color":{"text":"var:preset|color|base-2"}}}},"textColor":"base-2"} -->
 <div class="wp-block-cover alignfull has-base-2-color has-text-color has-link-color banner-hero" style="min-height:800px"><span aria-hidden="true" class="wp-block-cover__background has-background-dim-60 has-background-dim"></span><img class="wp-block-cover__image-background" alt="" src="https://s.w.org/images/core/5.8/forest.jpg" data-object-fit="cover"/><div class="wp-block-cover__inner-container">
 <!-- wp:group {"layout":{"type":"constrained","justifyContent":"center","wideSize":"1380px"}} -->
 <div class="wp-block-group">
@@ -33,9 +33,7 @@
 <!-- /wp:column -->
 
 <!-- wp:column {"className":"banner-hero\u002d\u002dright-col","layout":{"type":"default"}} -->
-<div class="wp-block-column banner-hero--right-col"><!-- wp:image {"id":149,"width":"400px","sizeSlug":"full","linkDestination":"none"} -->
-<figure class="wp-block-image size-full is-resized"><img src="http://localhost:8888/wp-content/uploads/2024/08/Smilers.png" alt="" class="wp-image-149" style="width:400px"/></figure>
-<!-- /wp:image --></div>
+<div class="wp-block-column">
 <!-- /wp:column --></div>
 <!-- /wp:columns --></div>
 <!-- /wp:group --></div></div>
