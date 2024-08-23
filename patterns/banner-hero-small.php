@@ -1,21 +1,19 @@
 <?php
 /**
- * Title: HSO Hero Large
- * Slug: twentytwentyfour/banner-hero
+ * Title: HSO Hero Small
+ * Slug: hso/banner-hero-small
  * Categories: banner, call-to-action, featured
  * Viewport width: 1400
  */
 ?>
 
-<!-- wp:cover {"url":"https://s.w.org/images/core/5.8/forest.jpg","dimRatio":60,"minHeight":800,"metadata":{"categories":["banner"],"patternName":"core/hso-small-hero","name":"HSO Small Hero"},"align":"full","style":{"elements":{"link":{"color":{"text":"var:preset|color|base-2"}}}},"textColor":"base-2"} -->
+<!-- wp:cover {"url":"https://s.w.org/images/core/5.8/forest.jpg","dimRatio":60,"minHeight":800,"metadata":{"categories":["banner"],"patternName":"hso/hso-hero-small","name":"HSO Hero Small"},"align":"full","style":{"elements":{"link":{"color":{"text":"var:preset|color|base-2"}}}},"textColor":"base-2"} -->
 <div class="wp-block-cover alignfull has-base-2-color has-text-color has-link-color banner-hero" style="min-height:800px"><span aria-hidden="true" class="wp-block-cover__background has-background-dim-60 has-background-dim"></span><img class="wp-block-cover__image-background" alt="" src="https://s.w.org/images/core/5.8/forest.jpg" data-object-fit="cover"/><div class="wp-block-cover__inner-container">
 <!-- wp:group {"layout":{"type":"constrained","justifyContent":"center","wideSize":"1380px"}} -->
 <div class="wp-block-group">
     <!-- wp:columns {"className":"banner-hero\u002d\u002dinner-content-container","style":{"spacing":{"padding":{"right":"30px","left":"30px"}}}} -->
 <div class="wp-block-columns banner-hero--inner-content-container" style="padding-right:30px;padding-left:30px"><!-- wp:column {"className":"banner-hero\u002d\u002dleft-col","style":{"spacing":{"blockGap":"30px"}}} -->
-<div class="wp-block-column banner-hero--left-col"><!-- wp:image {"id":136,"width":"400px","height":"auto","sizeSlug":"large","linkDestination":"none"} -->
-<figure class="wp-block-image size-large is-resized"><img src="http://localhost:8888/wp-content/uploads/2024/08/HSO-Logo-NO-TAG-100-white-1-1024x208.png" alt="" class="wp-image-136" style="width:400px;height:auto"/></figure>
-<!-- /wp:image -->
+<div class="wp-block-column banner-hero--left-col">
 
 <!-- wp:heading {"style":{"typography":{"fontSize":"34px","fontStyle":"normal","fontWeight":"400"}}} -->
 <h2 class="wp-block-heading" style="font-size:34px;font-style:normal;font-weight:400">Discover the New HSO</h2>

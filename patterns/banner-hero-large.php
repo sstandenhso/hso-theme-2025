@@ -1,13 +1,13 @@
 <?php
 /**
  * Title: HSO Hero Large
- * Slug: twentytwentyfour/banner-hero
+ * Slug: hso/banner-hero-large
  * Categories: banner, call-to-action, featured
  * Viewport width: 1400
  */
 ?>
 
-<!-- wp:cover {"url":"https://s.w.org/images/core/5.8/forest.jpg","dimRatio":60,"minHeight":800,"metadata":{"categories":["banner"],"patternName":"core/hso-large-hero","name":"HSO Large Hero"},"align":"full","style":{"elements":{"link":{"color":{"text":"var:preset|color|base-2"}}}},"textColor":"base-2"} -->
+<!-- wp:cover {"url":"https://s.w.org/images/core/5.8/forest.jpg","dimRatio":60,"minHeight":800,"metadata":{"categories":["banner"],"patternName":"hso/hso-hero-large","name":"HSO Hero Large"},"align":"full","style":{"elements":{"link":{"color":{"text":"var:preset|color|base-2"}}}},"textColor":"base-2"} -->
 <div class="wp-block-cover alignfull has-base-2-color has-text-color has-link-color banner-hero" style="min-height:800px"><span aria-hidden="true" class="wp-block-cover__background has-background-dim-60 has-background-dim"></span><img class="wp-block-cover__image-background" alt="" src="https://s.w.org/images/core/5.8/forest.jpg" data-object-fit="cover"/><div class="wp-block-cover__inner-container">
 <!-- wp:group {"layout":{"type":"constrained","justifyContent":"center","wideSize":"1380px"}} -->
 <div class="wp-block-group">
