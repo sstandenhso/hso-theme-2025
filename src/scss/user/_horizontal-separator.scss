@@ -1,0 +1,23 @@
+.horizontal-separator::before, .horizontal-separator::after {
+    content: "";
+    display: block;
+    width: 2px;
+    height: 120px;
+    background: linear-gradient(180deg, #ff9b8c 0%, #ff9b8c 50%, #94d1f7 50%, #94d1f7 100%);
+    position: absolute;
+    left: 50%;
+    transform: translateX(-50%);
+}
+
+.horizontal-separator::before {
+    top: -60px;
+}
+
+.horizontal-separator::after {
+    bottom: -60px;
+}
+
+.horizontal-separator--bottom-only::before {
+    display: none;
+    margin-top: 0;
+}
