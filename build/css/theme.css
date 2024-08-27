@@ -15886,4 +15886,14 @@ h1, .h1,
   margin-top: 0;
 }
 
+.product-card--wrapper {
+  position: relative;
+}
+
+.product-card--text-content {
+  position: absolute;
+  top: 0;
+  left: 0;
+}
+
 /*# sourceMappingURL=theme.css.map*/
