@@ -15859,3 +15859,13 @@ h1, .h1,
   display: none;
   margin-top: 0;
 }
+
+.product-card--wrapper {
+  position: relative;
+}
+
+.product-card--text-content {
+  position: absolute;
+  top: 0;
+  right: 0;
+}
