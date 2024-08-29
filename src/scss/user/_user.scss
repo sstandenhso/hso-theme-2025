@@ -3,6 +3,13 @@
 // Use this to write your custom SCSS
 //
 
+// .header-fixed {
+//     position: fixed;
+//     top: 0;
+//     left: 0;
+//     z-index: 100;
+//     width: 100%;
+// }
 
 //Container width 1380
 .container {
@@ -26,3 +33,11 @@
     list-style-type: none;
 }
 
+.about-border-left {
+    border-left: 2px solid $hso-blue-100;
+}
+
+.about-divider {
+    border-bottom: 2px solid $hso-blue-100 !important;
+    opacity: 1;
+}
