@@ -15869,3 +15869,25 @@ h1, .h1,
   top: 0;
   right: 0;
 }
+
+.brochure-section {
+  max-width: 1380px;
+  margin: auto;
+}
+@media screen and (max-width: 1080px) {
+  .brochure-section img {
+    width: 100% !important;
+    max-width: 400px !important;
+  }
+}
+@media screen and (max-width: 986px) {
+  .brochure-section {
+    justify-content: center !important;
+  }
+  .brochure-section .brochure-left {
+    display: flex;
+    flex-direction: column;
+    text-align: center;
+    justify-content: center;
+  }
+}
