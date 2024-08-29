@@ -15625,6 +15625,15 @@ h1, .h1,
   list-style-type: none;
 }
 
+.about-border-left {
+  border-right: 2px solid #0073B8;
+}
+
+.about-divider {
+  border-bottom: 2px solid #0073B8 !important;
+  opacity: 1;
+}
+
 .hso-gradient-btn .wp-element-button {
   padding: 5px 20px;
   border: none;
