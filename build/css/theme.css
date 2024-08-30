@@ -15820,11 +15820,11 @@ h1, .h1,
 }
 
 @media screen and (max-width: 830px) {
-  .block-spacing-20px .wp-block-column {
-    padding-bottom: 20px;
+  .footer-upper-cols .wp-block-column {
+    padding-bottom: 20px !important;
   }
 }
-.block-spacing-20px .wp-block-column a:hover {
+.footer-upper-cols .wp-block-column a:hover {
   color: #94d1f7;
 }
 

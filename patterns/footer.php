@@ -8,8 +8,8 @@
 ?>
 
 <!-- wp:group {"style":{"spacing":{"padding":{"top":"30px","bottom":"30px"}},"elements":{"link":{"color":{"text":"var:preset|color|base-2"},":hover":{"color":{"text":"var:preset|color|hso-blue-50"}}}}},"backgroundColor":"black","textColor":"base-2","layout":{"type":"constrained"}} -->
-<div class="wp-block-group has-base-2-color has-black-background-color has-text-color has-background has-link-color" style="padding-top:30px;padding-bottom:30px"><!-- wp:columns {"align":"wide","style":{"spacing":{"padding":{"top":"60px","bottom":"60px"},"blockGap":{"top":"20px","left":"20px"}},"elements":{"link":{":hover":{"color":{"text":"var:preset|color|hso-blue-50"}}}}},"textColor":"base-2"} -->
-<div class="wp-block-columns alignwide has-base-2-color has-text-color block-spacing-20px" style="padding-top:60px;padding-bottom:60px;"><!-- wp:column {"width":"25%"} -->
+<div class="wp-block-group has-base-2-color has-black-background-color has-text-color has-background has-link-color" style="padding-top:30px;padding-bottom:30px"><!-- wp:columns {"align":"wide","className":"container footer-upper-cols","style":{"spacing":{"padding":{"top":"60px","bottom":"60px","left":"30px","right":"30px"},"blockGap":{"top":"20px","left":"20px"}},"elements":{"link":{":hover":{"color":{"text":"var:preset|color|hso-blue-50"}}}}},"textColor":"base-2"} -->
+<div class="wp-block-columns alignwide container footer-upper-cols has-base-2-color has-text-color" style="padding-top:60px;padding-right:30px;padding-bottom:60px;padding-left:30px"><!-- wp:column {"width":"25%"} -->
 <div class="wp-block-column" style="flex-basis:25%"><!-- wp:group {"style":{"dimensions":{"minHeight":""},"layout":{"selfStretch":"fit","flexSize":null}},"layout":{"type":"flex","orientation":"vertical"}} -->
 <div class="wp-block-group"><!-- wp:site-logo {"width":200} /-->
 
@@ -72,46 +72,55 @@
 <!-- /wp:column --></div>
 <!-- /wp:columns -->
 
-<!-- wp:group {"align":"wide","style":{"spacing":{"padding":{"top":"10px","bottom":"0"}},"border":{"top":{"color":"var:preset|color|base-2","width":"2px"}},"elements":{"link":{"color":{"text":"var:preset|color|base-2"}}}},"textColor":"base-2","layout":{"type":"flex","flexWrap":"nowrap","justifyContent":"space-between"}} -->
-<div class="wp-block-group alignwide has-base-2-color has-text-color has-link-color footer-bottom-section" style="border-top-color:var(--wp--preset--color--base-2);border-top-width:2px;padding-top:10px;padding-bottom:0"><!-- wp:paragraph {"style":{"elements":{"link":{"color":{"text":"var:preset|color|contrast"}}}},"textColor":"base-2","fontSize":"small"} -->
+<!-- wp:group {"align":"wide","className":"container","style":{"spacing":{"padding":{"right":"30px","left":"30px"}}},"layout":{"type":"default"}} -->
+<div class="wp-block-group alignwide container" style="padding-right:30px;padding-left:30px"><!-- wp:group {"align":"wide","className":"footer-bottom-section","style":{"spacing":{"padding":{"top":"10px","bottom":"0","left":"0","right":"0"}},"border":{"top":{"color":"var:preset|color|base-2","width":"2px"}},"elements":{"link":{"color":{"text":"var:preset|color|base-2"}}}},"textColor":"base-2","layout":{"type":"flex","flexWrap":"nowrap","justifyContent":"space-between"}} -->
+<div class="wp-block-group alignwide footer-bottom-section has-base-2-color has-text-color has-link-color" style="border-top-color:var(--wp--preset--color--base-2);border-top-width:2px;padding-top:10px;padding-right:0;padding-bottom:0;padding-left:0"><!-- wp:paragraph {"style":{"elements":{"link":{"color":{"text":"var:preset|color|contrast"}}},"layout":{"selfStretch":"fit","flexSize":null}},"textColor":"base-2","fontSize":"small"} -->
 <p class="has-base-2-color has-text-color has-link-color has-small-font-size">© 2024 Copyright Henry Schein Orthodontics</p>
 <!-- /wp:paragraph -->
 
 <!-- wp:navigation {"ref":107,"overlayMenu":"never","style":{"typography":{"fontStyle":"normal","fontWeight":"400"},"spacing":{"blockGap":"20px"}},"fontSize":"small","layout":{"type":"flex","orientation":"horizontal","justifyContent":"center"}} /-->
 
-<!-- wp:social-links -->
-<ul class="wp-block-list wp-block-social-links"> 
-    <!-- wp:list-item --> 
-     <li class="face><book"r> 
-        <a href="#" target="_blank"> 
-            <img src="<?php echo esc_url( get_template_directory_uri() ); ?>/assets/images/social-media/facebook.png" alt="<?php esc_attr_e( 'Facebook', 'twentytwentyfour' ); ?>">
+<!-- wp:social-links {"className":"wp-block-list"} -->
+<ul class="wp-block-social-links wp-block-list"><!-- wp:list-item {"className":"face\u003e\u003cbook"} -->
+<li class="face&gt;<book"> 
+        <a href="#" target="_blank" rel="noopener"> 
+            <img src="http://localhost:8888/wp-content/themes/HSO-Theme-2024/assets/images/social-media/facebook.png" alt="Facebook">
         </a> <br> 
-    </li> <!-- /wp:list-item --> 
-    <!-- wp:list-item --> 
-     <li class="instagram"> 
-        <a href="#" target="_blank"> 
-        <img src="<?php echo esc_url( get_template_directory_uri() ); ?>/assets/images/social-media/instagram.png" alt="<?php esc_attr_e( 'Instagram', 'twentytwentyfour' ); ?>">
+    </li>
+<!-- /wp:list-item -->
+
+<!-- wp:list-item {"className":"instagram"} -->
+<li class="instagram"> 
+        <a href="#" target="_blank" rel="noopener"> 
+        <img src="http://localhost:8888/wp-content/themes/HSO-Theme-2024/assets/images/social-media/instagram.png" alt="Instagram">
         </a>
-    </li> <!-- /wp:list-item -->
-    <!-- wp:list-item --> 
-    <li class="twitter-x"r> 
-        <a href="#" target="_blank"> 
-        <img src="<?php echo esc_url( get_template_directory_uri() ); ?>/assets/images/social-media/twitter-x.png" alt="<?php esc_attr_e( 'Twitter X', 'twentytwentyfour' ); ?>">
+    </li>
+<!-- /wp:list-item -->
+
+<!-- wp:list-item {"className":"twitter-x"} -->
+<li class="twitter-x"> 
+        <a href="#" target="_blank" rel="noopener"> 
+        <img src="http://localhost:8888/wp-content/themes/HSO-Theme-2024/assets/images/social-media/twitter-x.png" alt="Twitter X">
         </a>
-    </li> <!-- /wp:list-item -->
-    <!-- wp:list-item --> 
-    <li class="linkedin"r> 
-        <a href="#" target="_blank"> 
-        <img src="<?php echo esc_url( get_template_directory_uri() ); ?>/assets/images/social-media/linkedin.png" alt="<?php esc_attr_e( 'LinkedIn', 'twentytwentyfour' ); ?>">
+    </li>
+<!-- /wp:list-item -->
+
+<!-- wp:list-item {"className":"linkedin"} -->
+<li class="linkedin"> 
+        <a href="#" target="_blank" rel="noopener"> 
+        <img src="http://localhost:8888/wp-content/themes/HSO-Theme-2024/assets/images/social-media/linkedin.png" alt="LinkedIn">
         </a>
-    </li> <!-- /wp:list-item -->
-    <!-- wp:list-item --> 
-    <li class="youtube"r> 
-        <a href="#" target="_blank"> 
-        <img src="<?php echo esc_url( get_template_directory_uri() ); ?>/assets/images/social-media/youtube.png" alt="<?php esc_attr_e( 'YouTube', 'twentytwentyfour' ); ?>">
+    </li>
+<!-- /wp:list-item -->
+
+<!-- wp:list-item {"className":"youtube"} -->
+<li class="youtube"> 
+        <a href="#" target="_blank" rel="noopener"> 
+        <img src="http://localhost:8888/wp-content/themes/HSO-Theme-2024/assets/images/social-media/youtube.png" alt="YouTube">
         </a>
-    </li> <!-- /wp:list-item -->
-</ul>
+    </li>
+<!-- /wp:list-item --></ul>
 <!-- /wp:social-links --></div>
+<!-- /wp:group --></div>
 <!-- /wp:group --></div>
 <!-- /wp:group -->
