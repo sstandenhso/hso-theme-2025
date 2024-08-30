@@ -7,8 +7,8 @@
  */
 ?>
 
-<!-- wp:query {"queryId":75,"query":{"perPage":10,"pages":0,"offset":"0","postType":"post","order":"desc","orderBy":"date","author":"","search":"","exclude":[],"sticky":"","inherit":true},"align":"wide","layout":{"type":"default"}} -->
-<div class="wp-block-query alignwide"><!-- wp:query-no-results -->
+<!-- wp:query {"queryId":75,"query":{"perPage":10,"pages":0,"offset":"0","postType":"post","order":"desc","orderBy":"date","author":"","search":"","exclude":[],"sticky":"","inherit":true},"align":"wide","className":"container","layout":{"type":"default"}} -->
+<div class="wp-block-query alignwide container"><!-- wp:query-no-results -->
 <!-- wp:paragraph -->
 <p>No posts were found.</p>
 <!-- /wp:paragraph -->

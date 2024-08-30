@@ -15843,6 +15843,7 @@ h1, .h1,
 
 .banner-hero--inner-content-container {
   align-items: center;
+  width: 100%;
 }
 .banner-hero--inner-content-container .banner-hero--left-col {
   display: flex;
