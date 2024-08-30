@@ -1,7 +1,7 @@
 <?php
 /**
- * Title: HSO Hero Large
- * Slug: hso/banner-hero-large
+ * Title: HSO Hero Large Image
+ * Slug: hso/banner-hero-large-image
  * Categories: banner, call-to-action, featured
  * Viewport width: 1400
  */
