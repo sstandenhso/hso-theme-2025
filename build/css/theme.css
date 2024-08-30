@@ -15740,7 +15740,7 @@ h1, .h1,
   height: 30px;
   width: auto;
 }
-@media screen and (max-width: 536px) {
+@media screen and (max-width: 660px) {
   #hso-logo-link a img {
     height: 18px;
     width: auto;
@@ -15751,7 +15751,7 @@ h1, .h1,
   height: 27px;
   width: auto;
 }
-@media screen and (max-width: 536px) {
+@media screen and (max-width: 660px) {
   #ot-logo-link a img {
     height: 18px;
     width: auto;
@@ -15762,7 +15762,7 @@ h1, .h1,
   height: 35px;
   width: auto;
 }
-@media screen and (max-width: 536px) {
+@media screen and (max-width: 660px) {
   #smilers-logo-link a img {
     height: 20px;
     width: auto;
