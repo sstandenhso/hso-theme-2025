@@ -629,13 +629,13 @@
 				{
 					"fluid": false,
 					"name": "Small",
-					"size": "0.9rem",
+					"size": "10px",
 					"slug": "small"
 				},
 				{
 					"fluid": false,
 					"name": "Medium",
-					"size": "1.05rem",
+					"size": "15px",
 					"slug": "medium"
 				},
 				{
@@ -644,7 +644,7 @@
 						"max": "1.85rem"
 					},
 					"name": "Large",
-					"size": "1.85rem",
+					"size": "18px",
 					"slug": "large"
 				},
 				{
@@ -653,7 +653,7 @@
 						"max": "2.5rem"
 					},
 					"name": "Extra Large",
-					"size": "2.5rem",
+					"size": "20",
 					"slug": "x-large"
 				},
 				{
@@ -662,7 +662,7 @@
 						"max": "3.27rem"
 					},
 					"name": "Extra Extra Large",
-					"size": "3.27rem",
+					"size": "30",
 					"slug": "xx-large"
 				}
 			],
