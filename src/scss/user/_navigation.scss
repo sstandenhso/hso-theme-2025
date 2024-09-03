@@ -1,24 +1,55 @@
+//Sticky header
 .header-sticky {
     position: fixed !important;
     width: 100%;
 }
+
+//Upper header nav
+.upper-header-nav {
+    li {
+        font-size: 15px;
+        font-weight: 500;
+    }
+
+    li:hover, li:focus, li:active {
+        color: $hso-blue-100;
+        button {
+            color: $hso-blue-100 !important;
+        }
+    }
+    
+    a:hover, a:focus, a:active {
+        color: $hso-blue-100 !important;
+    }
+}
+
+//Desktop nav menu styling
 .site-main-nav--desktop {
     @media screen and (max-width: 800px) {
         display: none !important;
     }
 
-    a {
-        padding: 15px 10px;
-        border-radius: 5px;
+    ul {
+        gap: 10px;
     }
 
-    a:hover, a:active, a:focus {
+    .wp-block-navigation-submenu {
+        display: block;
+        padding: 15px 10px !important;
+        border-radius: 5px;
+        font-size: 15px;
+        font-weight: 500;
+        margin: 0 10px;
+    }
+
+    .wp-block-navigation-submenu:hover, .wp-block-navigation-submenu:active, .wp-block-navigation-submenu:focus {
         color: black !important;
         background-color: white;
     }
 }
 
 //Mobile Nav Slide in/out animations
+
 // .wp-block-navigation.nav-top--mobile .wp-block-navigation__responsive-container {
 //     animation: slide-out 0.2s forwards;
 //         -webkit-animation: slide-out 0.2s forwards;

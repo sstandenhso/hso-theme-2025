@@ -15668,7 +15668,7 @@ h1, .h1,
   opacity: 1;
 }
 
-.hso-gradient-btn .wp-element-button {
+.hso-gradient-btn .wp-element-button, .hso-gradient-btn .wp-block-navigation-item__content {
   padding: 5px 20px;
   border: none;
   outline: none;
@@ -15678,9 +15678,13 @@ h1, .h1,
   background: linear-gradient(to right, #ff9b8c, #94d1f7);
   color: black;
   cursor: pointer;
+  text-align: center;
+  display: flex;
+  justify-content: center;
+  align-items: center;
 }
 
-.hso-gradient-btn .wp-element-button::before {
+.hso-gradient-btn .wp-element-button::before, .hso-gradient-btn .wp-block-navigation-item__content::before {
   content: "";
   position: absolute;
   left: 1px;
@@ -15693,13 +15697,13 @@ h1, .h1,
   transition: 200ms;
 }
 
-.hso-gradient-btn .wp-element-button::after {
+.hso-gradient-btn .wp-element-button::after, .hso-gradient-btn .wp-block-navigation-item__content::after {
   content: attr(data);
   color: #000;
   transition: 200ms;
 }
 
-.hso-gradient-btn .wp-element-button:hover::before {
+.hso-gradient-btn .wp-element-button:hover::before, .hso-gradient-btn .wp-block-navigation-item__content:hover::before {
   opacity: 0;
   top: 0px;
   right: 0px;
@@ -15707,7 +15711,7 @@ h1, .h1,
   left: 0px;
 }
 
-.hso-gradient-btn .wp-element-button:hover {
+.hso-gradient-btn .wp-element-button:hover, .hso-gradient-btn .wp-block-navigation-item__content:hover {
   color: white;
 }
 
@@ -15717,24 +15721,6 @@ h1, .h1,
 
 .hso-gradient-btn-dark .wp-element-button {
   color: white;
-}
-
-.gradient-btn {
-  overflow: hidden;
-}
-
-.gradient-btn .wp-element-button {
-  padding: 5px 20px;
-  border: 1px solid transparent;
-  outline: none;
-  border-radius: 100px;
-  -o-border-image: linear-gradient(to right, #ff9b8c, #94d1f7) 1;
-     border-image: linear-gradient(to right, #ff9b8c, #94d1f7) 1;
-  color: black;
-  background-origin: border-box;
-  background-clip: padding-box, border-box;
-  cursor: pointer;
-  text-transform: uppercase;
 }
 
 #hso-logo-link a, #ot-logo-link a, #smilers-logo-link a {
@@ -15782,16 +15768,37 @@ h1, .h1,
   width: 100%;
 }
 
+.upper-header-nav li {
+  font-size: 15px;
+  font-weight: 500;
+}
+.upper-header-nav li:hover, .upper-header-nav li:focus, .upper-header-nav li:active {
+  color: #0073B8;
+}
+.upper-header-nav li:hover button, .upper-header-nav li:focus button, .upper-header-nav li:active button {
+  color: #0073B8 !important;
+}
+.upper-header-nav a:hover, .upper-header-nav a:focus, .upper-header-nav a:active {
+  color: #0073B8 !important;
+}
+
 @media screen and (max-width: 800px) {
   .site-main-nav--desktop {
     display: none !important;
   }
 }
-.site-main-nav--desktop a {
-  padding: 15px 10px;
-  border-radius: 5px;
+.site-main-nav--desktop ul {
+  gap: 10px;
 }
-.site-main-nav--desktop a:hover, .site-main-nav--desktop a:active, .site-main-nav--desktop a:focus {
+.site-main-nav--desktop .wp-block-navigation-submenu {
+  display: block;
+  padding: 15px 10px !important;
+  border-radius: 5px;
+  font-size: 15px;
+  font-weight: 500;
+  margin: 0 10px;
+}
+.site-main-nav--desktop .wp-block-navigation-submenu:hover, .site-main-nav--desktop .wp-block-navigation-submenu:active, .site-main-nav--desktop .wp-block-navigation-submenu:focus {
   color: black !important;
   background-color: white;
 }
