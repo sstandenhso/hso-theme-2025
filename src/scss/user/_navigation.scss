@@ -6,6 +6,16 @@
     @media screen and (max-width: 800px) {
         display: none !important;
     }
+
+    a {
+        padding: 15px 10px;
+        border-radius: 5px;
+    }
+
+    a:hover, a:active, a:focus {
+        color: black !important;
+        background-color: white;
+    }
 }
 
 //Mobile Nav Slide in/out animations
@@ -23,6 +33,10 @@
   //Mobile nav styling
 .site-main-nav--mobile {
 
+    :where(.wp-site-blocks *:focus) {
+        outline: none !important;
+    }
+
     //Close button
     .wp-block-navigation__responsive-container-close {
         padding: 20px;
@@ -38,6 +52,8 @@
         padding: 10px 25px;
         width: 100%;
         display: block;
+        border: none;
+        outline: none;
     }
 
     //List item - Anchor tag
