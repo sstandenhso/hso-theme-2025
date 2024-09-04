@@ -1,3 +1,0 @@
-/*! For license information please see dropdown.js.LICENSE.txt */
-(()=>{"use strict";var o,e;o=document.querySelectorAll(".dropup, .dropright, .dropdown, .dropleft"),(e=document.querySelectorAll(".dropdown-menu .dropdown-toggle"))&&[].forEach.call(e,(function(o){o.addEventListener("click",(function(e){e.preventDefault(),e.stopPropagation(),function(o){var e=o.closest(".dropdown-menu").querySelectorAll(".dropdown-menu"),r=o.parentElement.querySelector(".dropdown-menu");[].forEach.call(e,(function(o){o!==r&&o.classList.remove("show")})),r.classList.toggle("show")}(o)}))})),$(o).on("hide.bs.dropdown",(function(o){var e;e=this.querySelectorAll(".dropdown-menu"),[].forEach.call(e,(function(o){o.classList.remove("show")}))}))})();
-//# sourceMappingURL=dropdown.js.map

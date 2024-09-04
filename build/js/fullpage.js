@@ -1,3 +1,0 @@
-/*! For license information please see fullpage.js.LICENSE.txt */
-(()=>{"use strict";var e;(e=document.querySelector(".fp-wrapper"))&&function(e){new fullpage(e,{licenseKey:"CA9DA262-9BD6447E-B1BF8C11-D1480312",anchors:["hero","about-1","about-2","services","promo","testimonials","pricing"],sectionSelector:".fp-section",scrollingSpeed:700,easingcss3:"cubic-bezier(0.55, 0.055, 0.675, 0.19)",scrollOverflow:!0,responsiveWidth:768,afterLoad:function(e,i,n){var t=new CustomEvent("fpAfterLoad",{detail:{origin:e,destination:i,direction:n}});window.dispatchEvent(t)},onLeave:function(e,i,n){var t=new CustomEvent("fpOnLeave",{detail:{origin:e,destination:i,direction:n}});window.dispatchEvent(t)}})}(e)})();
-//# sourceMappingURL=fullpage.js.map
