@@ -217,23 +217,10 @@ function register_custom_theme_stylesheet() {
 add_action( 'init', 'register_custom_theme_stylesheet' );
 
 function register_custom_javascript() {
-	wp_enqueue_script('alert', get_theme_file_uri('build/js/alert.js'));
-	wp_enqueue_script('animation', get_theme_file_uri('build/js/animation.js'));
-	wp_enqueue_script('code', get_theme_file_uri('build/js/code.js'));
-	wp_enqueue_script('dropdown', get_theme_file_uri('build/js/dropdown.js'));
-	wp_enqueue_script('faq', get_theme_file_uri('build/js/faq.js'));
-	wp_enqueue_script('fullpage', get_theme_file_uri('build/js/fullpage.js'));
-	wp_enqueue_script('map', get_theme_file_uri('build/js/map.js'));
-	wp_enqueue_script('modal', get_theme_file_uri('build/js/modal.js'));
-	wp_enqueue_script('navbar', get_theme_file_uri('build/js/navbar.js'));
-	wp_enqueue_script('newsletter', get_theme_file_uri('build/js/newsletter.js'));
-	wp_enqueue_script('polyfill', get_theme_file_uri('build/js/polyfill.js'));
-	wp_enqueue_script('slider', get_theme_file_uri('build/js/slider.js'));
-	wp_enqueue_script('testimonials', get_theme_file_uri('build/js/testimonials.js'));
-	wp_enqueue_script('year', get_theme_file_uri('build/js/year.js'));
+	wp_enqueue_script('submenu', get_theme_file_uri('build/js/submenu.js'), '', '', true);
 }
 
-add_action( 'init', 'register_custom_javascript' );
+add_action( 'init', 'register_custom_javascript');
 
 // //Nav Menu Slide Out Animation Trigger
 // function add_nav_top_mobile( $content, array $block ) {

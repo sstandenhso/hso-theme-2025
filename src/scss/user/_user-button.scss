@@ -1,5 +1,13 @@
-.hso-gradient-btn .wp-element-button {
+.hso-gradient-btn {
+  width: auto;
+  height: auto;
+}
+
+.hso-gradient-btn .wp-element-button, .hso-gradient-btn .wp-block-navigation-item__content {
+    display: block;
     padding: 5px 20px;
+    width: auto !important;
+    height: auto !important;
     border: none;
     outline: none;
     position: relative;
@@ -8,8 +16,32 @@
     background: $hso-button-gradient;
     color: black;
     cursor: pointer;
+    text-align: center;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+
+    //Overrides from navigation links
+    .wp-block-navigation-item__label {
+      padding: 0 !important;
+      width: auto !important;
+      border: none !important;
+      border-radius: 0 !important;
+    }
+
+    &:hover {
+      //Overrides from navigation links
+      .wp-block-navigation-item__label {
+        padding: 5px 20px !important;
+        width: auto !important;
+        border: none !important;
+        border-radius: 0 !important;
+        background-color: inherit;
+        color: inherit;
+      }
+    }
   }
-  .hso-gradient-btn .wp-element-button::before {
+  .hso-gradient-btn .wp-element-button::before, .hso-gradient-btn .wp-block-navigation-item__content::before {
     content: "";
     position: absolute;
     left: 1px;
@@ -21,20 +53,20 @@
     z-index: -1;
     transition: 200ms
   }
-  .hso-gradient-btn .wp-element-button::after {
+  .hso-gradient-btn .wp-element-button::after, .hso-gradient-btn .wp-block-navigation-item__content::after {
     content: attr(data);
     color: #000;
     transition: 200ms;
   }
   
-  .hso-gradient-btn .wp-element-button:hover::before {
+  .hso-gradient-btn .wp-element-button:hover::before, .hso-gradient-btn .wp-block-navigation-item__content:hover::before {
     opacity: 0;
     top: 0px;
     right: 0px;
     bottom: 0px;
     left: 0px;
   }
-  .hso-gradient-btn .wp-element-button:hover {
+  .hso-gradient-btn .wp-element-button:hover, .hso-gradient-btn .wp-block-navigation-item__content:hover {
     color: white;
   }
 
@@ -46,22 +78,4 @@
 
   .hso-gradient-btn-dark .wp-element-button {
     color: white;
-  }
-
-  .gradient-btn {
-    // border-radius: 100px;
-    overflow: hidden;
-  }
-
-  .gradient-btn .wp-element-button {
-    padding: 5px 20px;
-    border: 1px solid transparent;
-    outline: none;
-    border-radius: 100px;
-    border-image: $hso-button-gradient 1;
-    color: black;
-    background-origin: border-box;
-    background-clip: padding-box, border-box;
-    cursor: pointer;
-    text-transform: uppercase;
   }

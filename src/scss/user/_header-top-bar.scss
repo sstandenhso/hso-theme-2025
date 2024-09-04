@@ -35,3 +35,9 @@
         width: auto;
     }
 }
+
+#brand-websites-navigation {
+    @media screen and (max-width: 660px) {
+        gap: 0.2rem;
+    }
+}
