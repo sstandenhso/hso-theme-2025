@@ -30,7 +30,8 @@ module.exports = {
             //css
 			      'css/theme': path.resolve( process.cwd(), 'src/scss', 'theme.scss' ),
             //js
-            'js/submenu': path.resolve( process.cwd(), 'src/js', 'submenu.js' )
+            'js/submenu': path.resolve( process.cwd(), 'src/js', 'submenu.js' ),
+            'js/mobile-nav': path.resolve( process.cwd(), 'src/js', 'mobile-nav.js' )
 		},
 		plugins: [
 			// Include WP's plugin config.

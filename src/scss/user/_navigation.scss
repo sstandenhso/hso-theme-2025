@@ -124,11 +124,18 @@
         z-index: 200;
         top: 0 !important;
         margin-top: 50px;
-        right: 0 !important;
+        // right: 0 !important;
+        animation: slide-out 0.2s forwards;
+            -webkit-animation: slide-out 0.2s forwards;
 
         li {
             padding-bottom: 10px;
         }
+    }
+
+    .mobile-link-has-sub-menu > .wp-block-navigation__submenu-container.is-menu-open {
+        animation: slide-in 0.3s forwards;
+            -webkit-animation: slide-in 0.3s forwards;
     }
 
     .mobile-backlink {
@@ -158,12 +165,12 @@
 
 //Mobile Nav Slide in/out animations
 
-.nav-top--mobile .wp-block-navigation__responsive-container {
+.site-main-nav--mobile .wp-block-navigation__responsive-container.menu-closed {
     animation: slide-out 0.2s forwards;
         -webkit-animation: slide-out 0.2s forwards;
 }
 
-.nav-top--mobile .wp-block-navigation__responsive-container.is-menu-open {
+.site-main-nav--mobile .wp-block-navigation__responsive-container.is-menu-open {
     animation: slide-in 0.3s forwards;
     -webkit-animation: slide-in 0.3s forwards;
 }
