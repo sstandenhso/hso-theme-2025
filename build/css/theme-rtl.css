@@ -15696,6 +15696,7 @@ h1, .h1,
 .upper-header-nav li {
   font-size: 15px;
   font-weight: 500;
+  gap: 5px;
 }
 .upper-header-nav li:hover, .upper-header-nav li:focus, .upper-header-nav li:active {
   color: #0073B8;
@@ -15715,13 +15716,15 @@ h1, .h1,
 .site-main-nav--desktop ul {
   gap: 10px;
 }
-.site-main-nav--desktop .wp-block-navigation-submenu {
-  display: block;
+.site-main-nav--desktop .wp-block-navigation-submenu.has-child {
+  display: flex;
+  flex-wrap: nowrap;
   padding: 15px 10px !important;
   border-radius: 5px;
   font-size: 15px;
   font-weight: 500;
   margin: 0 10px;
+  gap: 5px;
 }
 .site-main-nav--desktop .wp-block-navigation-submenu:hover, .site-main-nav--desktop .wp-block-navigation-submenu:active, .site-main-nav--desktop .wp-block-navigation-submenu:focus {
   color: black !important;

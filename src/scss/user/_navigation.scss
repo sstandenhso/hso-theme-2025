@@ -9,6 +9,7 @@
     li {
         font-size: 15px;
         font-weight: 500;
+        gap: 5px;
     }
 
     li:hover, li:focus, li:active {
@@ -33,13 +34,15 @@
         gap: 10px;
     }
 
-    .wp-block-navigation-submenu {
-        display: block;
+    .wp-block-navigation-submenu.has-child {
+        display: flex;
+        flex-wrap: nowrap;
         padding: 15px 10px !important;
         border-radius: 5px;
         font-size: 15px;
         font-weight: 500;
         margin: 0 10px;
+        gap: 5px;
     }
 
     .wp-block-navigation-submenu:hover, .wp-block-navigation-submenu:active, .wp-block-navigation-submenu:focus {
