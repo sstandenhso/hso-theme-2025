@@ -214,7 +214,7 @@ add_action( 'init', 'twentytwentyfour_pattern_categories' );
 function register_custom_theme_stylesheet() {
 	wp_enqueue_style('incline_bootstrap_theme_stylesheet', get_theme_file_uri('build/css/theme.css'), array());
 }
-add_action( 'init', 'register_custom_theme_stylesheet' );
+add_action( 'wp_enqueue_scripts', 'register_custom_theme_stylesheet' );
 
 function register_custom_javascript() {
 	wp_enqueue_script('submenu', get_theme_file_uri('build/js/submenu.js'), '', '', true);
@@ -253,3 +253,5 @@ add_action( 'init', 'register_custom_javascript');
 // 	  $classes = explode( ' ', $block['className'] );
 // 	  return in_array( $classname, $classes, true );
 // 	}
+
+// 	add_action( 'init', 'add');
