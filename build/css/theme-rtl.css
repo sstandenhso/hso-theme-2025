@@ -16015,3 +16015,15 @@ h1, .h1,
     justify-content: center;
   }
 }
+
+.selected {
+  border-bottom: 2px solid;
+}
+
+.product-detail-border-left {
+  border-right: 2px solid;
+}
+
+.slideshow-images img:hover {
+  cursor: pointer;
+}
