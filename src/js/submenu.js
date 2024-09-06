@@ -10,7 +10,8 @@ let display = false;
 
 subMenuNests.forEach(submenu => {
     submenu.insertAdjacentHTML('afterbegin', backLink);
-    submenu.style.display = 'none';
+    submenu.classList.add('menu-closed');
+    // submenu.style.display = 'none';
 });
 
 
@@ -21,6 +22,8 @@ subMenus.forEach(submenu => {
     submenu.firstChild.addEventListener("click", (e) => {
         display = true;
         submenu.childNodes[2].style.display = 'block';
+        submenu.childNodes[2].classList.remove('menu-closed');
+        submenu.childNodes[2].classList.add('is-menu-open');
     });
 });
 
@@ -29,6 +32,8 @@ subMenuNests.forEach(submenu => {
 
     submenu.firstChild.addEventListener("click", (e) => {
         display = false;
-        submenu.style.display = 'none';
+        submenu.classList.remove('is-menu-open');
+        submenu.classList.add('menu-closed');
+        // submenu.style.display = 'none';
     })
 });
