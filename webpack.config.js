@@ -31,7 +31,8 @@ module.exports = {
 			      'css/theme': path.resolve( process.cwd(), 'src/scss', 'theme.scss' ),
             //js
             'js/submenu': path.resolve( process.cwd(), 'src/js', 'submenu.js' ),
-            'js/mobile-nav': path.resolve( process.cwd(), 'src/js', 'mobile-nav.js' )
+            'js/mobile-nav': path.resolve( process.cwd(), 'src/js', 'mobile-nav.js' ),
+            'js/product-details-image-carousel': path.resolve( process.cwd(), 'src/js', 'product-details-image-carousel.js' )
 		},
 		plugins: [
 			// Include WP's plugin config.
