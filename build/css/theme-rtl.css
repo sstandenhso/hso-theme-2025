@@ -15830,6 +15830,10 @@ h1, .h1,
   -webkit-animation: slide-in 0.3s forwards;
 }
 
+.background-opacity-0 {
+  background-color: rgba(0, 0, 0, 0) !important;
+}
+
 @media screen and (max-width: 830px) {
   .footer-upper-cols .wp-block-column {
     padding-bottom: 20px !important;
