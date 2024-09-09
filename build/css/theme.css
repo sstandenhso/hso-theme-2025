@@ -15639,6 +15639,11 @@ h1, .h1,
   width: 100%;
 }
 
+:where(.wp-site-blocks *:focus) {
+  outline-width: 0 !important;
+  outline-style: none !important;
+}
+
 .container {
   max-width: 1380px !important;
 }
