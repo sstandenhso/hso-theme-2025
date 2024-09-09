@@ -32,7 +32,8 @@ module.exports = {
             //js
             'js/submenu': path.resolve( process.cwd(), 'src/js', 'submenu.js' ),
             'js/mobile-nav': path.resolve( process.cwd(), 'src/js', 'mobile-nav.js' ),
-            'js/product-details-image-carousel': path.resolve( process.cwd(), 'src/js', 'product-details-image-carousel.js' )
+            'js/product-details-image-carousel': path.resolve( process.cwd(), 'src/js', 'product-details-image-carousel.js' ),
+            'js/nav-background-opacity': path.resolve( process.cwd(), 'src/js', 'nav-background-opacity.js' )
 		},
 		plugins: [
 			// Include WP's plugin config.

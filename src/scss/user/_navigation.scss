@@ -174,3 +174,13 @@
     animation: slide-in 0.3s forwards;
     -webkit-animation: slide-in 0.3s forwards;
 }
+
+// #site-header-main {
+//     transition: all 0.3s ease-in-out;
+// }
+
+//Main header background color and opacity
+//change on scroll
+.background-opacity-0 {
+    background-color: rgba(0, 0, 0, 0) !important;
+}
