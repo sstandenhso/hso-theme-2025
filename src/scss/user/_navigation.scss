@@ -26,7 +26,7 @@
 
 //Desktop nav menu styling
 .site-main-nav--desktop {
-    @media screen and (max-width: 800px) {
+    @media screen and (max-width: 845px) {
         display: none !important;
     }
 
@@ -49,6 +49,68 @@
         color: black !important;
         background-color: white;
     }
+
+    //Submenu Styling
+    .wp-block-navigation .has-child .wp-block-navigation-submenu__toggle[aria-expanded=true]~.wp-block-navigation__submenu-container,.wp-block-navigation .has-child:not(.open-on-click):hover>.wp-block-navigation__submenu-container,.wp-block-navigation .has-child:not(.open-on-click):not(.open-on-hover-click):focus-within>.wp-block-navigation__submenu-container.has-child ul.wp-block-navigation-submenu {
+        position: fixed;
+        display: flex !important;
+        flex-direction: row !important;
+        flex-wrap: wrap;
+        justify-content: space-evenly;
+        align-items: center;
+        width: 100%;
+        min-width: 600px;
+        max-width: 700px;
+        border-radius: 10px;
+        background-color: $gray-200 !important;
+        padding: 30px;
+        top: 140px;
+        left: 0 !important;
+        right: 0 !important;
+        margin: auto;
+
+        a {
+            width: 200px;
+            height: 80px;
+            border-radius: 10px;
+
+            span {
+                display: flex;
+                align-items: center;
+                img {
+                    display: block;
+                }
+            }
+
+            &:hover {
+                background-color: #fff;
+            }
+        }
+    }
+
+    .wp-block-navigation .desktop-shop-dropdown.has-child .wp-block-navigation-submenu__toggle[aria-expanded=true]~.wp-block-navigation__submenu-container {
+        display: grid !important;
+        min-width: 800px;
+        max-width: 900px;
+        grid-template-columns: 1fr 1fr 1fr 1fr;
+    }
+
+
+    .desktop-brands-dropdown li a img,
+    .desktop-philosophies-dropdown li a img {
+        width: 150px !important;
+    }
+
+    .desktop-education-dropdown li a img {
+        width: 80px !important;
+        padding-right: 20px;
+    }
+
+    .desktop-shop-dropdown li a img {
+        width: 70px !important;
+        padding-right: 20px;
+    }
+
 }
 
   //Mobile nav styling
@@ -153,7 +215,7 @@
         background-repeat: no-repeat;
     }
 
-    @media screen and (min-width: 800px) {
+    @media screen and (min-width: 845px) {
         display: none !important;
     }
 }
@@ -174,10 +236,6 @@
     animation: slide-in 0.3s forwards;
     -webkit-animation: slide-in 0.3s forwards;
 }
-
-// #site-header-main {
-//     transition: all 0.3s ease-in-out;
-// }
 
 //Main header background color and opacity
 //change on scroll
