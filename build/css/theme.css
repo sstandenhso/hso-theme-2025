@@ -15639,6 +15639,14 @@ h1, .h1,
   width: 100%;
 }
 
+.absolute-bottom-center {
+  position: absolute !important;
+  bottom: 30px !important;
+  left: 0 !important;
+  right: 0 !important;
+  margin: auto;
+}
+
 :where(.wp-site-blocks *:focus) {
   outline-width: 0 !important;
   outline-style: none !important;
@@ -15806,6 +15814,11 @@ h1, .h1,
   max-width: 900px;
   grid-template-columns: 1fr 1fr 1fr 1fr;
 }
+.site-main-nav--desktop .wp-block-navigation .desktop-shop-dropdown.has-child .wp-block-navigation-submenu__toggle[aria-expanded=true] ~ .wp-block-navigation__submenu-container,
+.site-main-nav--desktop .wp-block-navigation .desktop-brands-dropdown.has-child .wp-block-navigation-submenu__toggle[aria-expanded=true] ~ .wp-block-navigation__submenu-container,
+.site-main-nav--desktop .wp-block-navigation .desktop-education-dropdown.has-child .wp-block-navigation-submenu__toggle[aria-expanded=true] ~ .wp-block-navigation__submenu-container {
+  padding-bottom: 80px;
+}
 .site-main-nav--desktop .desktop-brands-dropdown li a img,
 .site-main-nav--desktop .desktop-philosophies-dropdown li a img {
   width: 150px !important;
@@ -15945,20 +15958,20 @@ h1, .h1,
 }
 
 .hso-gradient-btn {
-  width: auto;
+  width: -moz-fit-content;
+  width: fit-content;
   height: auto;
 }
 
 .hso-gradient-btn .wp-element-button, .hso-gradient-btn .wp-block-navigation-item__content {
-  display: block;
-  padding: 5px 20px;
+  padding: 5px 20px !important;
   width: auto !important;
   height: auto !important;
   border: none;
   outline: none;
   position: relative;
   z-index: 1;
-  border-radius: 100px;
+  border-radius: 100px !important;
   background: linear-gradient(to right, #ff9b8c, #94d1f7);
   color: black;
   cursor: pointer;
@@ -15974,12 +15987,10 @@ h1, .h1,
   border-radius: 0 !important;
 }
 .hso-gradient-btn .wp-element-button:hover .wp-block-navigation-item__label, .hso-gradient-btn .wp-block-navigation-item__content:hover .wp-block-navigation-item__label {
-  padding: 5px 20px !important;
-  width: auto !important;
   border: none !important;
   border-radius: 0 !important;
-  background-color: inherit;
-  color: inherit;
+  background-color: linear-gradient(to right, #ff9b8c, #94d1f7) !important;
+  color: white !important;
 }
 
 .hso-gradient-btn .wp-element-button::before, .hso-gradient-btn .wp-block-navigation-item__content::before {
@@ -15993,6 +16004,9 @@ h1, .h1,
   background-color: white;
   z-index: -1;
   transition: 200ms;
+  width: auto !important;
+  height: auto !important;
+  padding: 5px 20px !important;
 }
 
 .hso-gradient-btn .wp-element-button::after, .hso-gradient-btn .wp-block-navigation-item__content::after {

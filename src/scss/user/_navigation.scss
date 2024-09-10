@@ -95,6 +95,13 @@
         grid-template-columns: 1fr 1fr 1fr 1fr;
     }
 
+    //Add padding to dropdowns for room for absolutely positioned View More Link Buttons
+    .wp-block-navigation .desktop-shop-dropdown.has-child .wp-block-navigation-submenu__toggle[aria-expanded=true]~.wp-block-navigation__submenu-container,
+    .wp-block-navigation .desktop-brands-dropdown.has-child .wp-block-navigation-submenu__toggle[aria-expanded=true]~.wp-block-navigation__submenu-container,
+    .wp-block-navigation .desktop-education-dropdown.has-child .wp-block-navigation-submenu__toggle[aria-expanded=true]~.wp-block-navigation__submenu-container {
+        padding-bottom: 80px;
+    }
+
 
     .desktop-brands-dropdown li a img,
     .desktop-philosophies-dropdown li a img {
