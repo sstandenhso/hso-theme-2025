@@ -1,18 +1,17 @@
 .hso-gradient-btn {
-  width: auto;
+  width: fit-content;
   height: auto;
 }
 
 .hso-gradient-btn .wp-element-button, .hso-gradient-btn .wp-block-navigation-item__content {
-    display: block;
-    padding: 5px 20px;
+    padding: 5px 20px !important;
     width: auto !important;
     height: auto !important;
     border: none;
     outline: none;
     position: relative;
     z-index: 1;
-    border-radius: 100px;
+    border-radius: 100px !important;
     background: $hso-button-gradient;
     color: black;
     cursor: pointer;
@@ -32,12 +31,10 @@
     &:hover {
       //Overrides from navigation links
       .wp-block-navigation-item__label {
-        padding: 5px 20px !important;
-        width: auto !important;
         border: none !important;
         border-radius: 0 !important;
-        background-color: inherit;
-        color: inherit;
+        background-color: $hso-button-gradient !important;
+        color: white !important;
       }
     }
   }
@@ -51,7 +48,10 @@
     border-radius: 100px;
     background-color: white;
     z-index: -1;
-    transition: 200ms
+    transition: 200ms;
+    width: auto !important;
+    height: auto !important;
+    padding: 5px 20px !important;
   }
   .hso-gradient-btn .wp-element-button::after, .hso-gradient-btn .wp-block-navigation-item__content::after {
     content: attr(data);
