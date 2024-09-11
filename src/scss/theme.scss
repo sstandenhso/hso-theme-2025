@@ -26,6 +26,13 @@
 // Theme core
 @import 'theme/theme';
 
+//Swiper
+@import '../../node_modules/swiper/swiper-vars.scss';
+@import '../../node_modules/swiper/modules/navigation.scss';
+@import '../../node_modules/swiper/swiper.scss';
+
+@import 'user/swiper-customizations';
+
 // Custom core
 @import 'user/user';
 
