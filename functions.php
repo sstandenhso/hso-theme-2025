@@ -221,6 +221,7 @@ function register_custom_javascript() {
 	wp_enqueue_script('submenu', get_theme_file_uri('build/js/mobile-nav.js'), '', '', true);
 	wp_enqueue_script('product-detail-image-carousel', get_theme_file_uri('build/js/product-details-image-carousel.js'), '', '', true);
 	wp_enqueue_script('nav-background-opacity', get_theme_file_uri('build/js/nav-background-opacity.js'), '', '', true);
+	wp_enqueue_script('swiper', get_theme_file_uri('build/js/swiper.js'), '', '', true);
 }
 
 add_action( 'init', 'register_custom_javascript');
