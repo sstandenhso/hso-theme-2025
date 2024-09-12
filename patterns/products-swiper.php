@@ -1,13 +1,13 @@
 <?php
 /**
- * Title: HSO List of product cards, 3 columns
- * Slug: hso/product-cards-3-col
+ * Title: HSO Products Swiper
+ * Slug: hso/products-swiper
  * Categories: query
  * Block Types: core/query
  */
 ?>
 
-<!-- wp:group {"metadata":{"categories":["posts"],"patternName":"hso/posts-swiper","name":"HSO Posts Swiper"},"className":"container","style":{"spacing":{"padding":{"top":"40px","bottom":"40px"}}},"layout":{"type":"default"}} -->
+<!-- wp:group {"metadata":{"categories":["posts"],"patternName":"hso/products-swiper","name":"HSO Products Swiper"},"className":"container","style":{"spacing":{"padding":{"top":"40px","bottom":"40px"}}},"layout":{"type":"default"}} -->
 <div class="wp-block-group container" style="padding-top:40px;padding-bottom:40px"><!-- wp:group {"className":"container","layout":{"type":"default"}} -->
 <div class="wp-block-group container"><!-- wp:group {"layout":{"type":"default"}} -->
 <div class="wp-block-group"><!-- wp:query {"queryId":30,"query":{"perPage":3,"pages":0,"offset":0,"postType":"post","order":"desc","orderBy":"date","author":"","search":"","exclude":[],"sticky":"","inherit":false},"namespace":"core/posts-list","className":"swiper posts-swiper"} -->
