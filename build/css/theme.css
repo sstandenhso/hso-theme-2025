@@ -15975,7 +15975,17 @@ h1, .h1,
 }
 
 .posts-swiper li {
+  width: 100%;
   max-width: 400px;
+}
+@media screen and (min-width: 600px) {
+  .posts-swiper .swiper-wrapper {
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr;
+  }
+  .posts-swiper li {
+    width: auto !important;
+  }
 }
 
 .swiper-navigation .swiper-button-prev,
