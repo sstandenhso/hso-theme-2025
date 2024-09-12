@@ -103,6 +103,10 @@ Class names to note:
 - swiper-button-next 
 
 
+### HSO Products Swiper
+Same as above but the Brands/Products version used on the home page.
+
+
 ### About Section
 This section is for the main About Us section on the About page and is customizable.
 

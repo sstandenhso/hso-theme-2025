@@ -8,6 +8,13 @@ function postsSwiperConfigListItems() {
     });
 }
 
+function productDetailsSwiperConfigListItems() {
+    const listItems = [].slice.call(document.querySelectorAll(".product-details-swiper .swiper-wrapper .slideshow-image"));
+    listItems.forEach(item => {
+        item.classList.add("swiper-slide");
+    });
+}
+
 function addSwiperNav() {
     const swiperContainers = [].slice.call(document.querySelectorAll(".swiper"));
 
@@ -25,8 +32,9 @@ function addSwiperNav() {
 
 addSwiperNav();
 postsSwiperConfigListItems();
+productDetailsSwiperConfigListItems();
 
-const swiper = new Swiper(".posts-swiper", {
+const postsSwiper = new Swiper(".posts-swiper", {
     modules: [Navigation],
     enabled: true,
     slidesPerView: 1,
@@ -43,3 +51,22 @@ const swiper = new Swiper(".posts-swiper", {
     },
 });
 
+const productDetailsSwiper = new Swiper(".product-details-swiper", {
+    modules: [Navigation],
+    enabled: true,
+    slidesPerView: 3,
+    spaceBetween: 0,
+    cssMode: false,
+    setWrapperSize: false,
+    breakpoints: {
+        700: {
+            enabled: false,
+            setWrapperSize: true,
+            slidesPerView: 5
+        }
+    },
+    navigation: {
+        nextEl: '.swiper-button-next',
+        prevEl: '.swiper-button-prev',
+    },
+});
