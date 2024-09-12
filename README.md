@@ -125,3 +125,6 @@ This pattern is to be used anywhere where you have a column layout of icons abov
 
 ### HSO List of Product Cards, 3 Columns
 This pattern is a 3 column layout of Brands/Products where the Product Image is a background and the title and subtitle of the product are overlayed in the top left corner. 
+
+### HSO Legal Page Section
+This pattern is similar to the About Section in layout but there is no third column.
