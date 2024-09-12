@@ -28,23 +28,13 @@ postsSwiperConfigListItems();
 
 const swiper = new Swiper(".posts-swiper", {
     modules: [Navigation],
-    enabled: false,
-    spaceBetween: 30,
+    enabled: true,
+    slidesPerView: 1,
+    spaceBetween: 20,
+    cssMode: false,
     breakpoints: {
-        1380: {
+        600: {
             enabled: false
-        },
-        1000: {
-            enabled: true,
-            slidesPerView: 2,
-            spaceBetween: 30,
-            cssMode: false
-        },
-        500: {
-            enabled: true,
-            slidesPerView: 1,
-            spaceBetween: 20,
-            cssMode: false
         }
     },
     navigation: {
