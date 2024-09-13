@@ -16056,6 +16056,10 @@ h1, .h1,
   opacity: 1;
 }
 
+button {
+  text-transform: uppercase !important;
+}
+
 #hso-logo-link a, #ot-logo-link a, #smilers-logo-link a {
   height: 100%;
   display: flex;
@@ -16354,6 +16358,7 @@ h1, .h1,
   display: flex;
   justify-content: center;
   align-items: center;
+  text-transform: uppercase;
 }
 .hso-gradient-btn .wp-element-button .wp-block-navigation-item__label, .hso-gradient-btn .wp-block-navigation-item__content .wp-block-navigation-item__label {
   padding: 0 !important;
