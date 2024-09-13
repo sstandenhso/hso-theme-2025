@@ -205,6 +205,18 @@ endif;
 
 add_action( 'init', 'twentytwentyfour_pattern_categories' );
 
+//Add Categories to Pages
+function add_categories_to_pages() {
+	register_taxonomy_for_object_type( 'category', 'page' );
+}
+	
+add_action( 'init', 'add_categories_to_pages' );
+
+//Add Excerpt to Pages
+add_action('after_setup_theme', function () {
+	add_post_type_support('page', 'excerpt');
+});
+
 
 /***********************************************************
  * 
