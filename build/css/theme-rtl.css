@@ -90,7 +90,7 @@
   --bs-dark-border-subtle: #d1d1d1;
   --bs-white-rgb: 255, 255, 255;
   --bs-black-rgb: 0, 0, 0;
-  --bs-font-sans-serif: "Objective", sans-serif;
+  --bs-font-sans-serif: "Theinhardt", sans-serif;
   --bs-font-monospace: SFMono-Regular, Menlo, Monaco, Consolas, "Liberation Mono", "Courier New", monospace;
   --bs-gradient: linear-gradient(180deg, rgba(255, 255, 255, 0.15), rgba(255, 255, 255, 0));
   --bs-body-font-family: var(--bs-font-sans-serif);
@@ -14631,11 +14631,6 @@ html, body {
 ::selection {
   background-color: #0073B8;
   color: white;
-}
-
-h1,
-.h1, h2, .h2, h3, .h3, h4, .h4, h5, .h5, h6, .h6 {
-  letter-spacing: -0.05em;
 }
 
 h1, .h1,

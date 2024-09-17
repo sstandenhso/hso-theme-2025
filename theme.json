@@ -1025,7 +1025,7 @@
 					"fontSize": "var(--wp--preset--font-size--x-large)",
 					"fontStyle": "italic",
 					"fontWeight": "400",
-					"letterSpacing": "0em",
+					"letterSpacing": "normal",
 					"lineHeight": "1.5"
 				}
 			},
@@ -1289,8 +1289,9 @@
 			"fontFamily": "var(--wp--preset--font-family--theinhardt)",
 			"fontSize": "var(--wp--preset--font-size--medium)",
 			"fontStyle": "normal",
-			"fontWeight": "500",
-			"lineHeight": "1.55"
+			"fontWeight": "400",
+			"lineHeight": "1.55",
+			"letterSpacing": "normal"
 		},
 		"css": ":where(.wp-site-blocks *:focus){outline-width:2px;outline-style:solid}"
 	},
