@@ -409,6 +409,16 @@
   width: 100%;
 }
 
+.visually-hidden {
+  clip: rect(0 0 0 0);
+  clip-path: inset(50%);
+  height: 1px;
+  overflow: hidden;
+  position: absolute;
+  white-space: nowrap;
+  width: 1px;
+}
+
 .absolute-bottom-center {
   position: absolute !important;
   bottom: 30px !important;
@@ -471,6 +481,10 @@ button {
   align-items: center;
 }
 
+#hso-logo-link:where(figure), #ot-logo-link:where(figure), #smilers-logo-link:where(figure) {
+  margin-bottom: 0;
+}
+
 #hso-logo-link a img {
   height: 30px;
   width: auto;
@@ -505,7 +519,10 @@ button {
 }
 
 #brand-websites-navigation {
-  padding: 10px;
+  display: flex;
+  align-items: center;
+  gap: 10px;
+  padding: 10px 0;
 }
 @media screen and (max-width: 660px) {
   #brand-websites-navigation {
@@ -527,10 +544,23 @@ button {
   width: 100%;
 }
 
+.site-header-upper--inner-content {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+}
 @media screen and (max-width: 845px) {
   .site-header-upper--inner-content {
     justify-content: center;
   }
+}
+
+.site-header-lower--inner-content {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  padding-top: 20px;
+  padding-bottom: 20px;
 }
 
 .upper-header-nav li {
@@ -739,6 +769,11 @@ button {
   color: #94d1f7;
 }
 
+.footer-bottom-section {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
 @media screen and (max-width: 830px) {
   .footer-bottom-section {
     display: flex;
@@ -750,6 +785,10 @@ button {
 }
 .footer-bottom-section a:hover {
   color: #94d1f7 !important;
+}
+.footer-bottom-section .wp-block-social-links-is-layout-flex {
+  display: flex;
+  gap: 18px;
 }
 
 .hso-gradient-btn {
