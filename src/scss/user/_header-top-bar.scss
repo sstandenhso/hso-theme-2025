@@ -6,6 +6,10 @@
     align-items: center;
 }
 
+#hso-logo-link:where(figure), #ot-logo-link:where(figure), #smilers-logo-link:where(figure) {
+    margin-bottom: 0;
+}
+
 #hso-logo-link a img {
     height: 30px;
     width: auto;
@@ -37,7 +41,10 @@
 }
 
 #brand-websites-navigation {
-    padding: 10px;
+    display: flex;
+    align-items: center;
+    gap: 10px;
+    padding: 10px 0;
 
     @media screen and (max-width: 660px) {
         width: 100%;
