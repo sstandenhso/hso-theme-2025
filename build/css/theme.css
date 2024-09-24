@@ -423,10 +423,16 @@
 }
 
 .container {
-  max-width: 1380px !important;
+  max-width: 1280px !important;
   margin: auto;
   padding-left: 30px;
   padding-right: 30px;
+}
+@media screen and (max-width: 800px) {
+  .container {
+    padding-left: 15px;
+    padding-right: 15px;
+  }
 }
 
 .has-base-2-color {
