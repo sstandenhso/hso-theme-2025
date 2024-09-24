@@ -7,7 +7,7 @@
  */
 ?>
 
-<!-- wp:group {"metadata":{"categories":["about"],"patternName":"hso/features-cols-icons","name":"HSO Features Columns With Icons"},"className":"container","style":{"spacing":{"padding":{"top":"40px","bottom":"40px","left":"30px","right":"30px"}}},"layout":{"type":"constrained"}} -->
+<!-- wp:group {"metadata":{"categories":["about"],"patternName":"hso/features-cols-icons","name":"HSO Features Columns With Icons"},"className":"container","style":{"spacing":{"padding":{"top":"40px","bottom":"40px"}}},"layout":{"type":"constrained"}} -->
 <div class="wp-block-group container" style="padding-top:40px;padding-right:30px;padding-bottom:40px;padding-left:30px"><!-- wp:heading {"textAlign":"center","style":{"typography":{"fontSize":"26px","fontStyle":"normal","fontWeight":"500"},"spacing":{"padding":{"bottom":"20px"}}}} -->
 <h2 class="wp-block-heading has-text-align-center" style="padding-bottom:20px;font-size:26px;font-style:normal;font-weight:500">Does Your DSO Need Better Ortho Support?</h2>
 <!-- /wp:heading -->

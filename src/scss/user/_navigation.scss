@@ -4,6 +4,12 @@
     width: 100%;
 }
 
+.site-header-upper--inner-content {
+    @media screen and (max-width: 845px) {
+        justify-content: center;
+    }
+}
+
 //Upper header nav
 .upper-header-nav {
     li {

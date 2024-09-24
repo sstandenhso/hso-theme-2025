@@ -8,7 +8,7 @@
 ?>
 
 <!-- wp:cover {"overlayColor":"contrast","isUserOverlayColor":true,"minHeight":600,"className":"banner-hero","style":{"spacing":{"margin":{"top":"0","bottom":"0"}}},"layout":{"type":"constrained"}} -->
-<div class="wp-block-cover banner-hero" style="margin-top:0;margin-bottom:0;min-height:600px"><span aria-hidden="true" class="wp-block-cover__background has-contrast-background-color has-background-dim-100 has-background-dim"></span><div class="wp-block-cover__inner-container"><!-- wp:columns {"className":"banner-hero\u002d\u002dinner-content-container container","style":{"spacing":{"padding":{"right":"30px","left":"30px"}}}} -->
+<div class="wp-block-cover banner-hero" style="margin-top:0;margin-bottom:0;min-height:600px"><span aria-hidden="true" class="wp-block-cover__background has-contrast-background-color has-background-dim-100 has-background-dim"></span><div class="wp-block-cover__inner-container"><!-- wp:columns {"className":"banner-hero\u002d\u002dinner-content-container container"} -->
 <div class="wp-block-columns banner-hero--inner-content-container container" style="padding-right:30px;padding-left:30px"><!-- wp:column {"className":"banner-hero\u002d\u002dleft-col","style":{"spacing":{"blockGap":"30px"}}} -->
 <div class="wp-block-column banner-hero--left-col"><!-- wp:image {"id":136,"width":"400px","height":"auto","sizeSlug":"large","linkDestination":"none"} -->
 <figure class="wp-block-image size-large is-resized"><img src="http://localhost:8888/wp-content/uploads/2024/08/HSO-Logo-NO-TAG-100-white-1-1024x208.png" alt="" class="wp-image-136" style="width:400px;height:auto"/></figure>

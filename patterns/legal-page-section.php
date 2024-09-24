@@ -7,7 +7,7 @@
  */
 ?>
 
-<!-- wp:columns {"metadata":{"categories":["legal"],"patternName":"hso/legal-page-section","name":"HSO Legal Page Section"},"className":"container","style":{"spacing":{"padding":{"right":"30px","left":"30px","top":"30px","bottom":"30px"},"blockGap":{"top":"30px","left":"30px"},"margin":{"top":"150px"}}}} -->
+<!-- wp:columns {"metadata":{"categories":["legal"],"patternName":"hso/legal-page-section","name":"HSO Legal Page Section"},"className":"container","style":{"spacing":{"padding":{"top":"30px","bottom":"30px"},"blockGap":{"top":"30px","left":"30px"},"margin":{"top":"150px"}}}} -->
 <div class="wp-block-columns container" style="margin-top:150px;padding-top:30px;padding-right:30px;padding-bottom:30px;padding-left:30px"><!-- wp:column {"width":"10%"} -->
 <div class="wp-block-column" style="flex-basis:10%"><!-- wp:heading {"style":{"typography":{"textTransform":"uppercase","fontSize":"12px","fontStyle":"normal","fontWeight":"500"}}} -->
 <h2 class="wp-block-heading" style="font-size:12px;font-style:normal;font-weight:500;text-transform:uppercase">Legal Page</h2>

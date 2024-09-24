@@ -55,13 +55,13 @@ const productDetailsSwiper = new Swiper(".product-details-swiper", {
     modules: [Navigation],
     enabled: true,
     slidesPerView: 3,
-    spaceBetween: 0,
+    spaceBetween: 40,
     cssMode: false,
     setWrapperSize: false,
     breakpoints: {
         700: {
             enabled: false,
-            setWrapperSize: true,
+            // setWrapperSize: true,
             slidesPerView: 5
         }
     },
