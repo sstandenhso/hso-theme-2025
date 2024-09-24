@@ -6,13 +6,13 @@
 //
 
 // Bootstrap functions
-@import "../../node_modules/bootstrap/scss/functions";
+// @import "../../node_modules/bootstrap/scss/functions";
 
 //Hover utilities from Bootstrap 4
-@import 'theme/utilities/hover';
+// @import 'theme/utilities/hover';
 
-// Theme functions
-@import 'theme/functions';
+// // Theme functions
+// @import 'theme/functions';
 
 // Custom variables
 @import 'user/user-variables';
@@ -21,10 +21,10 @@
 @import 'theme/variables';
 
 // Bootstrap core
-@import '../../node_modules/bootstrap/scss/bootstrap';
+// @import '../../node_modules/bootstrap/scss/bootstrap';
 
 // Theme core
-@import 'theme/theme';
+// @import 'theme/theme';
 
 //Swiper
 @import '../../node_modules/swiper/swiper-vars.scss';

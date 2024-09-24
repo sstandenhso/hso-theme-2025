@@ -7,17 +7,27 @@
 .posts-swiper {
     li {
         width: 100%;
-        max-width: 400px;
+        margin-right: 0 !important;
     }
 
     @media screen and (min-width: 600px) {
         .swiper-wrapper {
             display: grid;
             grid-template-columns: 1fr 1fr 1fr;
+            gap: 40px;
         }
 
         li {
             width: auto !important;
+        }
+    }
+
+    @media screen and (max-width: 600px) {
+        .swiper-wrapper {
+            gap: 20px;
+        }
+        li {
+            max-width: 400px;
         }
     }
 }

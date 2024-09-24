@@ -37,8 +37,13 @@
 }
 
 #brand-websites-navigation {
+    padding: 10px;
+
     @media screen and (max-width: 660px) {
+        width: 100%;
+        justify-content: center;
         gap: 0.2rem;
+        margin: auto;
     }
 }
 
