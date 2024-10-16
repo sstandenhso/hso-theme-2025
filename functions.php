@@ -236,4 +236,4 @@ function register_custom_javascript() {
 	wp_enqueue_script('swiper', get_theme_file_uri('build/js/swiper.js'), '', '', true);
 }
 
-add_action( 'init', 'register_custom_javascript');
+add_action( 'wp_enqueue_scripts', 'register_custom_javascript');

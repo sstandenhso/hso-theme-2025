@@ -44,7 +44,7 @@
 
 //Desktop nav menu styling
 .site-main-nav--desktop {
-    @media screen and (max-width: 845px) {
+    @media screen and (max-width: 1010px) {
         display: none !important;
     }
 
@@ -77,8 +77,8 @@
         justify-content: space-evenly;
         align-items: center;
         width: 100%;
-        min-width: 600px;
-        max-width: 700px;
+        min-width: 700px;
+        max-width: 800px;
         border-radius: 10px;
         background-color: $gray-200 !important;
         padding: 30px;
@@ -91,10 +91,15 @@
             width: 200px;
             height: 80px;
             border-radius: 10px;
+            display: flex;
+            justify-content: center;
+            align-items: center;
 
             span {
                 display: flex;
+                justify-content: center;
                 align-items: center;
+
                 img {
                     display: block;
                 }
@@ -102,6 +107,7 @@
 
             &:hover {
                 background-color: #fff;
+                color: $hso-blue-100;
             }
         }
     }
@@ -109,7 +115,7 @@
     .wp-block-navigation .desktop-shop-dropdown.has-child .wp-block-navigation-submenu__toggle[aria-expanded=true]~.wp-block-navigation__submenu-container {
         display: grid !important;
         min-width: 800px;
-        max-width: 900px;
+        max-width: 1000px;
         grid-template-columns: 1fr 1fr 1fr 1fr;
     }
 
@@ -127,7 +133,7 @@
     }
 
     .desktop-education-dropdown li a img {
-        width: 80px !important;
+        width: 70px !important;
         padding-right: 20px;
     }
 
@@ -240,7 +246,7 @@
         background-repeat: no-repeat;
     }
 
-    @media screen and (min-width: 845px) {
+    @media screen and (min-width: 1011px) {
         display: none !important;
     }
 }
@@ -266,4 +272,49 @@
 //change on scroll
 .background-opacity-0 {
     background-color: rgba(0, 0, 0, 0) !important;
+}
+
+
+//Search Form in Main Navigation
+#navbar_search {
+    background-color: #fff;
+    color: #000;
+    border-radius: 50px;
+    padding: 0 10px;
+
+    .input-group {
+        display: flex;
+        align-items: center;
+    }
+
+    .form-control {
+        border: none;
+        outline: none;
+        background: none;
+
+        &:focus {
+            outline: none;
+            border: none;
+        }
+    }
+
+    .input-group-btn, .btn-search, .fa-search {
+        width: 35px;
+        height: 35px;
+        border: none;
+        background: none;
+        img {
+            width: 15px;
+        }
+
+        &:hover {
+            cursor: pointer;
+        }
+    }
+}
+
+.desktop-navbar-search {
+    @media screen and (max-width: 1010px) {
+        display: none !important;
+    }
 }

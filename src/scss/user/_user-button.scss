@@ -20,6 +20,8 @@
     justify-content: center;
     align-items: center;
     text-transform: uppercase;
+    font-size: 12px;
+    font-weight: 600;
 
     //Overrides from navigation links
     .wp-block-navigation-item__label {
@@ -79,4 +81,9 @@
 
   .hso-gradient-btn-dark .wp-element-button {
     color: white;
+  }
+
+  //Grey 200 background
+  .hso-gradient-btn-grey-200 .wp-element-button::before {
+    background-color: $gray-200;
   }
