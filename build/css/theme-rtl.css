@@ -409,6 +409,10 @@
   width: 100%;
 }
 
+footer:has(#site-footer) {
+  margin-block-start: 0;
+}
+
 .visually-hidden {
   clip: rect(0 0 0 0);
   clip-path: inset(50%);
@@ -488,6 +492,7 @@
   }
   .mobile-text-center {
     text-align: center !important;
+    justify-content: center !important;
   }
 }
 #hso-logo-link a, #ot-logo-link a, #smilers-logo-link a {
