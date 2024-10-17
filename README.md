@@ -132,3 +132,9 @@ This pattern is a 3 column layout of Brands/Products where the Product Image is 
 
 ### HSO Legal Page Section
 This pattern is similar to the About Section in layout but there is no third column.
+
+
+## Class names for mobile
+- reverse-col-mobile
+- mobile-justify-center
+- mobile-text-center

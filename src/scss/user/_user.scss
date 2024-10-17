@@ -72,3 +72,28 @@
     border-bottom: 2px solid $hso-blue-100 !important;
     opacity: 1;
 }
+
+//Reverse column mobile
+@media screen and (max-width: 1000px) {
+    .reverse-col-mobile {
+        display: flex;
+        flex-direction: column-reverse !important;
+        justify-content: center;
+        align-items: center;
+        flex-basis: auto
+    }
+
+    .reverse-col-mobile > * {
+        flex-basis: auto;
+    }
+
+    .mobile-justify-center {
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+    }
+
+    .mobile-text-center {
+        text-align: center !important;
+    }
+}

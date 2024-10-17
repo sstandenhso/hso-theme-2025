@@ -470,6 +470,26 @@
   opacity: 1;
 }
 
+@media screen and (max-width: 1000px) {
+  .reverse-col-mobile {
+    display: flex;
+    flex-direction: column-reverse !important;
+    justify-content: center;
+    align-items: center;
+    flex-basis: auto;
+  }
+  .reverse-col-mobile > * {
+    flex-basis: auto;
+  }
+  .mobile-justify-center {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+  }
+  .mobile-text-center {
+    text-align: center !important;
+  }
+}
 #hso-logo-link a, #ot-logo-link a, #smilers-logo-link a {
   height: 100%;
   display: flex;
@@ -675,6 +695,7 @@
   display: block;
   border: none;
   outline: none;
+  border-radius: 10px;
 }
 .site-main-nav--mobile .site-main-nav--mobile-link .wp-block-navigation-item__content {
   display: block;
