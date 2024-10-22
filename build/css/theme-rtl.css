@@ -1008,6 +1008,9 @@ footer:has(#site-footer) {
   top: 0;
   right: 0;
 }
+.product-card--text-content h2, .product-card--text-content h3 {
+  flex-basis: auto !important;
+}
 
 .brochure-section {
   max-width: 1380px;
