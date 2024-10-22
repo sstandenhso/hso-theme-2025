@@ -162,6 +162,10 @@
         padding: 10px;
     }
 
+    .wp-block-navigation__responsive-container.is-menu-open  .site-main-nav--mobile {
+        overflow-x: hidden !important;
+    }
+
     //List item
     .site-main-nav--mobile-link {
         padding: 0;

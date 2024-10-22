@@ -693,6 +693,9 @@ footer:has(#site-footer) {
   width: 100%;
   padding: 10px;
 }
+.site-main-nav--mobile .wp-block-navigation__responsive-container.is-menu-open .site-main-nav--mobile {
+  overflow-x: hidden !important;
+}
 .site-main-nav--mobile .site-main-nav--mobile-link {
   padding: 0;
   padding-bottom: 10px;
@@ -1043,5 +1046,15 @@ footer:has(#site-footer) {
 @media screen and (max-width: 700px) {
   .product-details {
     flex-wrap: wrap;
+  }
+}
+
+.contact-form {
+  border: none;
+  min-height: 900px;
+}
+@media screen and (max-width: 845px) {
+  .contact-form {
+    min-height: 1300px;
   }
 }
