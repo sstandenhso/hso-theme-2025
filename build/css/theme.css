@@ -1046,6 +1046,9 @@ footer:has(#site-footer) {
 .product-card--text-content h2, .product-card--text-content h3 {
   flex-basis: auto !important;
 }
+.product-card--text-content h2, .product-card--text-content h3, .product-card--text-content p {
+  margin-block-start: auto;
+}
 
 .brochure-section {
   max-width: 1380px;

@@ -9,4 +9,8 @@
     h2, h3 {
         flex-basis: auto !important;
     }
+
+    h2, h3, p {
+        margin-block-start: auto;
+    }
 }
