@@ -510,6 +510,7 @@ footer:has(#site-footer) {
     display: flex;
     flex-direction: column;
     justify-content: center;
+    align-items: center;
   }
   .mobile-text-center {
     text-align: center !important;
@@ -521,6 +522,7 @@ footer:has(#site-footer) {
     display: flex;
     flex-direction: column;
     justify-content: start;
+    align-items: start;
   }
 }
 #hso-logo-link a, #ot-logo-link a, #smilers-logo-link a {
