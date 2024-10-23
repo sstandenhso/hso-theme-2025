@@ -16,17 +16,18 @@ function productDetailsSwiperConfigListItems() {
 }
 
 function addSwiperNav() {
-    const swiperContainers = [].slice.call(document.querySelectorAll(".swiper"));
+    const swiperContainers = document.querySelectorAll(".swiper");
 
-    const swiperNavigation = document.createElement("div");
-    swiperNavigation.innerHTML = `
+    const swiperNavigation = `
         <div class="swiper-navigation">
             <div class="swiper-button-prev"></div>
             <div class="swiper-button-next"></div>
         </div>
     `;
     swiperContainers.forEach(swiperContainer => {
-        swiperContainer.appendChild(swiperNavigation);
+        // swiperContainer.appendChild(swiperNavigation);
+        console.log(swiperContainer)
+        swiperContainer.insertAdjacentHTML("afterbegin", swiperNavigation);
     });
 }
 
