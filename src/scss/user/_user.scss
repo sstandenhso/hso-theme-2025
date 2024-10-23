@@ -103,3 +103,11 @@ footer:has(#site-footer) {
         justify-content: center !important;
     }
 }
+
+@media screen and (max-width: 500px) {
+    .mobile-justify-start {
+        display: flex;
+        flex-direction: column;
+        justify-content: start;
+    }
+}

@@ -516,6 +516,13 @@ footer:has(#site-footer) {
     justify-content: center !important;
   }
 }
+@media screen and (max-width: 500px) {
+  .mobile-justify-start {
+    display: flex;
+    flex-direction: column;
+    justify-content: start;
+  }
+}
 #hso-logo-link a, #ot-logo-link a, #smilers-logo-link a {
   height: 100%;
   display: flex;
