@@ -960,6 +960,12 @@ footer:has(#site-footer) {
 }
 
 @media screen and (max-width: 830px) {
+  .banner-hero-mobile {
+    display: flex;
+  }
+  .banner-hero-desktop {
+    display: none;
+  }
   .banner-hero {
     padding-top: 100px !important;
     padding-bottom: 100px !important;
@@ -973,6 +979,14 @@ footer:has(#site-footer) {
   }
   .banner-hero .wp-block-buttons {
     justify-content: center;
+  }
+}
+@media screen and (min-width: 831px) {
+  .banner-hero-desktop {
+    display: flex;
+  }
+  .banner-hero-mobile {
+    display: none;
   }
 }
 .horizontal-separator::before, .horizontal-separator::after {

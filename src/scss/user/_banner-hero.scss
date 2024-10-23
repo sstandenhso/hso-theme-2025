@@ -15,6 +15,13 @@
     }
 }
 @media screen and (max-width: 830px) {
+    .banner-hero-mobile {
+        display: flex;
+    }
+    .banner-hero-desktop {
+        display: none;
+    }
+
     .banner-hero {
         padding-top: 100px !important;
         padding-bottom: 100px !important;
@@ -32,3 +39,13 @@
         }
     }
 }
+
+@media screen and (min-width: 831px) {
+    .banner-hero-desktop {
+        display: flex;
+    }
+    .banner-hero-mobile {
+        display: none;
+    }
+}
+
