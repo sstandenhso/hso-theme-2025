@@ -113,3 +113,10 @@ footer:has(#site-footer) {
         align-items: start;
     }
 }
+.links-blue a {
+    color: $hso-blue-100;
+}
+
+.links-blue a:hover {
+    color: $hso-blue-50;
+}
