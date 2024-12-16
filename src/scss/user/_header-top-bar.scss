@@ -1,5 +1,5 @@
 //Styling for the header-top-bar pattern file
-#hso-logo-link a, #ot-logo-link a, #smilers-logo-link a {
+#hso-logo-link, #ot-logo-link, #smilers-logo-link {
     height: 100%;
     display: flex;
     justify-content: center;
@@ -10,37 +10,37 @@
     margin-bottom: 0;
 }
 
-#hso-logo-link a img {
-    height: 30px;
-    width: auto;
+// #hso-logo-link a img {
+//     height: 30px;
+//     width: auto;
 
-    @media screen and (max-width: 660px) {
-        height: 18px;
-        width: auto;
-    }
-}
+//     @media screen and (max-width: 660px) {
+//         height: 18px;
+//         width: auto;
+//     }
+// }
 
-#ot-logo-link a img {
-    height: 27px;
-    width: auto;
+// #ot-logo-link a img {
+//     height: 27px;
+//     width: auto;
 
-    @media screen and (max-width: 660px) {
-        height: 18px;
-        width: auto;
-    }
-}
+//     @media screen and (max-width: 660px) {
+//         height: 18px;
+//         width: auto;
+//     }
+// }
 
-#smilers-logo-link a img {
-    height: 35px;
-    width: auto;
+// #smilers-logo-link a img {
+//     height: 35px;
+//     width: auto;
 
-    @media screen and (max-width: 660px) {
-        height: 20px;
-        width: auto;
-    }
-}
+//     @media screen and (max-width: 660px) {
+//         height: 20px;
+//         width: auto;
+//     }
+// }
 
-#brand-websites-navigation {
+#brand-websites-navigation, .brand_websites {
     display: flex;
     align-items: center;
     gap: 10px;
@@ -51,6 +51,23 @@
         justify-content: center;
         gap: 0.2rem;
         margin: auto;
+    }
+
+    a {
+        color: black;
+    }
+
+    .active a {
+        color: $hso-blue-100;
+    }
+
+    a:hover {
+        color: $hso-blue-100;
+    }
+
+    .spacer a {
+        cursor: default;
+        pointer-events: none;
     }
 }
 
