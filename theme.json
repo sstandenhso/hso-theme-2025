@@ -437,8 +437,7 @@
 							"fontWeight": "100",
 							"src": [
 								"file:./assets/fonts/Theinhardt/theinhardt-hairline-webfont.woff2",
-								"file:./assets/fonts/Theinhardt/theinhardt-hairline-webfont.woff",
-								"file:./assets/fonts/Theinhardt/Theinhardt-Hairline.otf"
+								"file:./assets/fonts/Theinhardt/theinhardt-hairline-webfont.woff"
 							]
 						},
 						{
@@ -447,8 +446,7 @@
 							"fontWeight": "100",
 							"src": [
 								"file:./assets/fonts/Theinhardt/theinhardt-hairlineita-webfont.woff2",
-								"file:./assets/fonts/Theinhardt/theinhardt-hairlineita-webfont.woff",
-								"file:./assets/fonts/Theinhardt/Theinhardt-HairlineIta.otf"
+								"file:./assets/fonts/Theinhardt/theinhardt-hairlineita-webfont.woff"
 							]
 						},
 						{
@@ -457,8 +455,7 @@
 							"fontWeight": "200",
 							"src": [
 								"file:./assets/fonts/Theinhardt/theinhardt-ultralight-webfont.woff2",
-								"file:./assets/fonts/Theinhardt/theinhardt-ultralight-webfont.woff",
-								"file:./assets/fonts/Theinhardt/Theinhardt-Ultralight.otf"
+								"file:./assets/fonts/Theinhardt/theinhardt-ultralight-webfont.woff"
 							]
 						},
 						{
@@ -467,8 +464,7 @@
 							"fontWeight": "200 300",
 							"src": [
 								"file:./assets/fonts/Theinhardt/theinhardt-ultralightita-webfont.woff2",
-								"file:./assets/fonts/Theinhardt/theinhardt-ultralightita-webfont.woff",
-								"file:./assets/fonts/Theinhardt/Theinhardt-UltralightIta.otf"
+								"file:./assets/fonts/Theinhardt/theinhardt-ultralightita-webfont.woff"
 							]
 						},
 						{
@@ -477,16 +473,7 @@
 							"fontWeight": "300",
 							"src": [
 								"file:./assets/fonts/Theinhardt/theinhardt-thin-webfont.woff2",
-								"file:./assets/fonts/Theinhardt/theinhardt-thin-webfont.woff",
-								"file:./assets/fonts/Theinhardt/Theinhardt-Thin.otf"
-							]
-						},
-						{
-							"fontFamily": "Theinhardt",
-							"fontStyle": "normal",
-							"fontWeight": "300",
-							"src": [
-								"file:./assets/fonts/Theinhardt/Theinhardt-ThinIta.otf"
+								"file:./assets/fonts/Theinhardt/theinhardt-thin-webfont.woff"
 							]
 						},
 						{
@@ -495,8 +482,7 @@
 							"fontWeight": "400",
 							"src": [
 								"file:./assets/fonts/Theinhardt/theinhardt-light-webfont.woff2",
-								"file:./assets/fonts/Theinhardt/theinhardt-light-webfont.woff",
-								"file:./assets/fonts/Theinhardt/Theinhardt-Light.otf"
+								"file:./assets/fonts/Theinhardt/theinhardt-light-webfont.woff"
 							]
 						},
 						{
@@ -505,8 +491,7 @@
 							"fontWeight": "400",
 							"src": [
 								"file:./assets/fonts/Theinhardt/theinhardt-lightita-webfont.woff2",
-								"file:./assets/fonts/Theinhardt/theinhardt-lightita-webfont.woff",
-								"file:./assets/fonts/Theinhardt/Theinhardt-LightIta.otf"
+								"file:./assets/fonts/Theinhardt/theinhardt-lightita-webfont.woff"
 							]
 						},
 						{
@@ -515,8 +500,7 @@
 							"fontWeight": "500",
 							"src": [
 								"file:./assets/fonts/Theinhardt/theinhardt-regular-webfont.woff2",
-								"file:./assets/fonts/Theinhardt/theinhardt-regular-webfont.woff",
-								"file:./assets/fonts/Theinhardt/Theinhardt-Regular.otf"
+								"file:./assets/fonts/Theinhardt/theinhardt-regular-webfont.woff"
 							]
 						},
 						{
@@ -525,8 +509,7 @@
 							"fontWeight": "500",
 							"src": [
 								"file:./assets/fonts/Theinhardt/theinhardt-regularita-webfont.woff2",
-								"file:./assets/fonts/Theinhardt/theinhardt-regularita-webfont.woff",
-								"file:./assets/fonts/Theinhardt/Theinhardt-RegularIta.otf"
+								"file:./assets/fonts/Theinhardt/theinhardt-regularita-webfont.woff"
 							]
 						},
 						{
@@ -535,8 +518,7 @@
 							"fontWeight": "600",
 							"src": [
 								"file:./assets/fonts/Theinhardt/theinhardt-medium-webfont.woff2",
-								"file:./assets/fonts/Theinhardt/theinhardt-medium-webfont.woff",
-								"file:./assets/fonts/Theinhardt/Theinhardt-Medium.otf"
+								"file:./assets/fonts/Theinhardt/theinhardt-medium-webfont.woff"
 							]
 						},
 						{
@@ -545,8 +527,7 @@
 							"fontWeight": "600",
 							"src": [
 								"file:./assets/fonts/Theinhardt/theinhardt-mediumita-webfont.woff2",
-								"file:./assets/fonts/Theinhardt/theinhardt-mediumita-webfont.woff",
-								"file:./assets/fonts/Theinhardt/Theinhardt-MediumIta.otf"
+								"file:./assets/fonts/Theinhardt/theinhardt-mediumita-webfont.woff"
 							]
 						},
 						{
@@ -555,8 +536,7 @@
 							"fontWeight": "700",
 							"src": [
 								"file:./assets/fonts/Theinhardt/theinhardt-bold-webfont.woff2",
-								"file:./assets/fonts/Theinhardt/theinhardt-bold-webfont.woff",
-								"file:./assets/fonts/Theinhardt/Theinhardt-Bold.otf"
+								"file:./assets/fonts/Theinhardt/theinhardt-bold-webfont.woff"
 							]
 						},
 						{
@@ -565,8 +545,7 @@
 							"fontWeight": "700",
 							"src": [
 								"file:./assets/fonts/Theinhardt/theinhardt-boldita-webfont.woff2",
-								"file:./assets/fonts/Theinhardt/theinhardt-boldita-webfont.woff",
-								"file:./assets/fonts/Theinhardt/Theinhardt-BoldIta.otf"
+								"file:./assets/fonts/Theinhardt/theinhardt-boldita-webfont.woff"
 							]
 						},
 						{
@@ -575,8 +554,7 @@
 							"fontWeight": "800",
 							"src": [
 								"file:./assets/fonts/Theinhardt/theinhardt-heavy-webfont.woff2",
-								"file:./assets/fonts/Theinhardt/theinhardt-heavy-webfont.woff",
-								"file:./assets/fonts/Theinhardt/Theinhardt-Heavy.otf"
+								"file:./assets/fonts/Theinhardt/theinhardt-heavy-webfont.woff"
 							]
 						},
 						{
@@ -585,8 +563,7 @@
 							"fontWeight": "800",
 							"src": [
 								"file:./assets/fonts/Theinhardt/theinhardt-heavyita-webfont.woff2",
-								"file:./assets/fonts/Theinhardt/theinhardt-heavyita-webfont.woff",
-								"file:./assets/fonts/Theinhardt/Theinhardt-HeavyIta.otf"
+								"file:./assets/fonts/Theinhardt/theinhardt-heavyita-webfont.woff"
 							]
 						},
 						{
@@ -595,8 +572,7 @@
 							"fontWeight": "900",
 							"src": [
 								"file:./assets/fonts/Theinhardt/theinhardt-black-webfont.woff2",
-								"file:./assets/fonts/Theinhardt/theinhardt-black-webfont.woff",
-								"file:./assets/fonts/Theinhardt/Theinhardt-Black.otf"
+								"file:./assets/fonts/Theinhardt/theinhardt-black-webfont.woff"
 							]
 						},
 						{
@@ -605,8 +581,7 @@
 							"fontWeight": "900",
 							"src": [
 								"file:./assets/fonts/Theinhardt/theinhardt-blackita-webfont.woff2",
-								"file:./assets/fonts/Theinhardt/theinhardt-blackita-webfont.woff",
-								"files:./assets/fonts/Theinhardt/Theinhardt-BlackIta.otf"
+								"file:./assets/fonts/Theinhardt/theinhardt-blackita-webfont.woff"
 							]
 						}
 					],

@@ -1,1 +1,3 @@
+/*! For license information please see nav-background-opacity.js.LICENSE.txt */
 (()=>{const e=document.getElementById("site-header-main"),t=document.querySelector(".banner-hero");document.addEventListener("DOMContentLoaded",(function(n){t&&e.classList.add("background-opacity-0")})),document.addEventListener("scroll",(t=>{window.scrollY>200&&(e.style.transition="all 0.3s ease-in-out",e.classList.remove("background-opacity-0"))}))})();
+//# sourceMappingURL=nav-background-opacity.js.map

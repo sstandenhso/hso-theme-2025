@@ -26,7 +26,6 @@ function addSwiperNav() {
     `;
     swiperContainers.forEach(swiperContainer => {
         // swiperContainer.appendChild(swiperNavigation);
-        console.log(swiperContainer)
         swiperContainer.insertAdjacentHTML("afterbegin", swiperNavigation);
     });
 }
