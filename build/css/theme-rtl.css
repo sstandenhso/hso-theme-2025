@@ -533,6 +533,17 @@ footer:has(#site-footer) {
   color: #94d1f7;
 }
 
+@media screen and (max-width: 700px) {
+  .mobile-2-col {
+    grid-template-columns: 1fr 1fr !important;
+    gap: 30px;
+  }
+}
+@media screen and (min-width: 701px) {
+  .desktop-4-col {
+    grid-template-columns: 1fr 1fr 1fr 1fr !important;
+  }
+}
 #hso-logo-link, #ot-logo-link, #smilers-logo-link {
   height: 100%;
   display: flex;
