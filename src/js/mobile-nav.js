@@ -1,9 +1,3 @@
-// const navToggleOpen = document.querySelectorAll('.site-main-nav--mobile button')[0];
-// navToggleOpen.addEventListener('click', e => {
-//     e.target.nextElementSibling.style.display = 'block';
-//     console.log(navToggleOpen)
-// });
-
 const mobileNavMenuWrapper = document.querySelector(".site-main-nav--mobile .wp-block-navigation__responsive-container-content");
 
 const mobileSearchBar = `<!-- Search Bar for Navigation -->
