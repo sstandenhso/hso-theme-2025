@@ -223,6 +223,12 @@ add_action('after_setup_theme', function () {
  * LOAD CUSTOM SCRIPTS & STYLE SHEETS
  * 
  * ********************************************************/
+function cookie_script() {
+    echo '<!-- Start cookies banner --><script src="https://consent.trustarc.com/autoblockasset/core.min.js?domain=kkw4tu"></script><!-- End cookies banner --> ';
+	echo '<!-- Start cookies banner --><script src="https://consent.trustarc.com/autoblockoptout?domain=kkw4tu"></script><!-- End cookies banner --> ';
+}
+add_action("wp_head", "cookie_script", 0);
+
 function register_custom_theme_stylesheet() {
 	wp_enqueue_style('incline_bootstrap_theme_stylesheet', get_theme_file_uri('build/css/theme.css'), array());
 }
