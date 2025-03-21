@@ -232,12 +232,12 @@ function cookie_script() {
 			if (!_STATE.hasRunOnce && window.truste && truste.eu && truste.eu.prefclose) {
 			console.log("doing run once");
 			_STATE.oldValue = truste.eu.bindMap.prefCookie &&
-			truste.eu.bindMap.prefCookie.split(':')[0].replace(/[^\d.]/g, '-');
+			truste.eu.bindMap.prefCookie.split(":")[0].replace(/[^\d.]/g, "-");
 			_STATE.oldMethod = truste.eu.prefclose;
 			truste.eu.prefclose = function () {
 			_STATE.oldMethod();
 			if (truste.eu.bindMap.prefCookie &&
-			truste.eu.bindMap.prefCookie.split(':')[0].replace(/[^\d.]/g, '-')
+			truste.eu.bindMap.prefCookie.split(":")[0].replace(/[^\d.]/g, "-")
 			!== _STATE.oldValue)
 			setTimeout(function () {
 			window.location.reload();
