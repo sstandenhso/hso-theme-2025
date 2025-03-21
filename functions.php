@@ -226,6 +226,28 @@ add_action('after_setup_theme', function () {
 function cookie_script() {
     echo '<!-- Start cookies banner --><script src="https://consent.trustarc.com/autoblockasset/core.min.js?domain=kkw4tu"></script><!-- End cookies banner --> ';
 	echo '<!-- Start cookies banner --><script src="https://consent.trustarc.com/autoblockoptout?domain=kkw4tu"></script><!-- End cookies banner --> ';
+	echo '<script>
+			var _STATE = {};
+			function runOnce() {
+			if (!_STATE.hasRunOnce && window.truste && truste.eu && truste.eu.prefclose) {
+			console.log("doing run once");
+			_STATE.oldValue = truste.eu.bindMap.prefCookie &&
+			truste.eu.bindMap.prefCookie.split(':')[0].replace(/[^\d.]/g, '-');
+			_STATE.oldMethod = truste.eu.prefclose;
+			truste.eu.prefclose = function () {
+			_STATE.oldMethod();
+			if (truste.eu.bindMap.prefCookie &&
+			truste.eu.bindMap.prefCookie.split(':')[0].replace(/[^\d.]/g, '-')
+			!== _STATE.oldValue)
+			setTimeout(function () {
+			window.location.reload();
+			}, 20);
+			}
+			_STATE.hasRunOnce = true;
+			_STATE.i && clearInterval(_STATE.i);
+			};
+			}
+			</script>';
 }
 add_action("wp_head", "cookie_script", 0);
 
@@ -241,6 +263,7 @@ function register_custom_javascript() {
 	wp_enqueue_script('product-detail-image-carousel', get_theme_file_uri('build/js/product-details-image-carousel.js'), '', '', true);
 	wp_enqueue_script('nav-background-opacity', get_theme_file_uri('build/js/nav-background-opacity.js'), '', '', true);
 	wp_enqueue_script('swiper', get_theme_file_uri('build/js/swiper.js'), '', '', true);
+	wp_enqueue_script('cookie-consent-force-refresh', get_theme_file_uri('build/js/cookie-consent-force-refresh.js'), '', '', true);
 }
 
 add_action( 'wp_enqueue_scripts', 'register_custom_javascript');
