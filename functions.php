@@ -226,6 +226,27 @@ add_action('after_setup_theme', function () {
 function cookie_script() {
     echo '<!-- Start cookies banner --><script src="https://consent.trustarc.com/autoblockasset/core.min.js?domain=kkw4tu"></script><!-- End cookies banner --> ';
 	echo '<!-- Start cookies banner --><script src="https://consent.trustarc.com/autoblockoptout?domain=kkw4tu"></script><!-- End cookies banner --> ';
+	echo 'var _STATE = {};
+		function runOnce() {
+		if (!_STATE.hasRunOnce && window.truste && truste.eu && truste.eu.prefclose) {
+		console.log("doing run once");
+		_STATE.oldValue = truste.eu.bindMap.prefCookie &&
+		truste.eu.bindMap.prefCookie.split(":")[0].replace(/[^\d.]/g, "-");
+		_STATE.oldMethod = truste.eu.prefclose;
+		truste.eu.prefclose = function () {
+		_STATE.oldMethod();
+		if (truste.eu.bindMap.prefCookie &&
+		truste.eu.bindMap.prefCookie.split(":")[0].replace(/[^\d.]/g, "-")
+		!== _STATE.oldValue)
+		setTimeout(function () {
+		window.location.reload();
+		}, 20);
+		}
+		_STATE.hasRunOnce = true;
+		_STATE.i && clearInterval(_STATE.i);
+		};
+		}
+		_STATE.i = setInterval(runOnce, 10);';
 }
 add_action("wp_head", "cookie_script", 0);
 
