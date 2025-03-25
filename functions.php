@@ -226,7 +226,7 @@ add_action('after_setup_theme', function () {
 function cookie_script() {
     echo '<!-- Start cookies banner --><script src="https://consent.trustarc.com/autoblockasset/core.min.js?domain=kkw4tu"></script><!-- End cookies banner --> ';
 	echo '<!-- Start cookies banner --><script src="https://consent.trustarc.com/autoblockoptout?domain=kkw4tu"></script><!-- End cookies banner --> ';
-	echo 'var _STATE = {};
+	echo '<script>var _STATE = {};
 		function runOnce() {
 		if (!_STATE.hasRunOnce && window.truste && truste.eu && truste.eu.prefclose) {
 		console.log("doing run once");
@@ -246,7 +246,7 @@ function cookie_script() {
 		_STATE.i && clearInterval(_STATE.i);
 		};
 		}
-		_STATE.i = setInterval(runOnce, 10);';
+		_STATE.i = setInterval(runOnce, 10);</script>';
 }
 add_action("wp_head", "cookie_script", 0);
 
