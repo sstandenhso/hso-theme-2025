@@ -1,7 +1,7 @@
 const mobileNavMenuWrapper = document.querySelector(".site-main-nav--mobile .wp-block-navigation__responsive-container-content");
 
 const mobileSearchBar = `<!-- Search Bar for Navigation -->
-<form id="navbar_search" class="mobile-navbar-search" role="search" method="post" action="https://henryschein.webjaguar.dev/lsearch.jhtm">
+<form id="mobile_navbar_search" class="navbar_search mobile-navbar-search" role="search" method="post" action="https://henryschein.webjaguar.dev/lsearch.jhtm">
     <div class="input-group">
         <span class="input-group-btn">
             <button class="btn btn-search" type="submit">
