@@ -1,0 +1,1 @@
+document.body.addEventListener("click",(function(t){t&&t.target&&"truste-consent-button"===t.target.id&&setTimeout((()=>{window.location.reload()}),1e3)}));

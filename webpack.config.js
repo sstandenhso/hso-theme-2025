@@ -34,7 +34,8 @@ module.exports = {
             'js/mobile-nav': path.resolve( process.cwd(), 'src/js', 'mobile-nav.js' ),
             'js/product-details-image-carousel': path.resolve( process.cwd(), 'src/js', 'product-details-image-carousel.js' ),
             'js/nav-background-opacity': path.resolve( process.cwd(), 'src/js', 'nav-background-opacity.js' ),
-            'js/swiper': path.resolve( process.cwd(), 'src/js', 'swiper.js' )
+            'js/swiper': path.resolve( process.cwd(), 'src/js', 'swiper.js' ),
+            'js/cookie-consent-force-refresh': path.resolve( process.cwd(), 'src/js', 'cookie-consent-force-refresh.js' )
 		},
 		plugins: [
 			// Include WP's plugin config.
