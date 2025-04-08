@@ -133,3 +133,12 @@ footer:has(#site-footer) {
         grid-template-columns: 1fr 1fr 1fr 1fr !important;
     }
 }
+
+.cookie-preferences-trigger-link {
+    color: $hso-blue-100;
+
+    &:hover {
+        cursor: pointer;
+        color: $hso-blue-70;
+    }
+}

@@ -1,1 +1,3 @@
+/*! For license information please see submenu.js.LICENSE.txt */
 (()=>{const e=[].slice.call(document.querySelectorAll(".mobile-link-has-sub-menu")),l=[].slice.call(document.querySelectorAll(".mobile-link-has-sub-menu .wp-block-navigation-submenu"));let s=!1;l.forEach((e=>{e.insertAdjacentHTML("afterbegin",'<li><div class="mobile-backlink"></div></li>'),e.classList.add("menu-closed")})),e.forEach((e=>{e.firstChild.addEventListener("click",(l=>{s=!0,e.childNodes[2].style.display="block",e.childNodes[2].classList.remove("menu-closed"),e.childNodes[2].classList.add("is-menu-open")}))})),l.forEach((e=>{e.firstChild.addEventListener("click",(l=>{s=!1,e.classList.remove("is-menu-open"),e.classList.add("menu-closed")}))}))})();
+//# sourceMappingURL=submenu.js.map
