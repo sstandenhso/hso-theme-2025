@@ -1,0 +1,3 @@
+/*! For license information please see loggedInMenuToggle.js.LICENSE.txt */
+document.addEventListener("DOMContentLoaded",(t=>{let e=function(t){const e=document.cookie.split(";");for(let o=0;o<e.length;o++){let n=e[o].trim();if(n.startsWith(t+"="))return n.substring(t.length+1,n.length)}return null}("customerLoggedInLayout=true");const o=document.querySelectorAll(".account-dropdown-authenticated"),n=document.querySelectorAll(".account-dropdown-unauthenticated");e?console.log("User logged in."):console.log("User not authenticated."),e?(o.forEach((t=>{t.style.display="block"})),n.forEach((t=>{t.style.display="none"}))):(n.forEach((t=>{t.style.display="block"})),o.forEach((t=>{t.style.display="none"})))}));
+//# sourceMappingURL=loggedInMenuToggle.js.map
