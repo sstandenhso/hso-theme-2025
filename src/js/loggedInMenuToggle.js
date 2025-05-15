@@ -12,18 +12,18 @@ function getCookie(name) {
 
 document.addEventListener("DOMContentLoaded", event => {
     //Find Cookie if exists
-    let isUserLoggedIn = getCookie("customerLoggedInLayout=true");
+    let isUserLoggedIn = getCookie("customerLoggedInLayout");
 
     //Get "My Account" Navigation Dropdowns Desktop
     const accountDropdownAuthenticated = document.querySelectorAll(".account-dropdown-authenticated");
     const accountDropdownUnauthenticated = document.querySelectorAll(".account-dropdown-unauthenticated");
 
-    isUserLoggedIn ? console.log('User logged in.') : console.log("User not authenticated.");
+    
 
     if (isUserLoggedIn) {
       //Show Authenticated Dropdowns
       accountDropdownAuthenticated.forEach(element => {
-        element.style.display = "block";
+        element.style.display = "flex";
       });
 
       //Hide Unauthenticated Dropdowns
@@ -34,7 +34,7 @@ document.addEventListener("DOMContentLoaded", event => {
     } else {
       //Show Unauthenticated Dropdowns
       accountDropdownUnauthenticated.forEach(element => {
-        element.style.display = "block";
+        element.style.display = "flex";
       });
 
       //Hide Authenticated Dropdowns
