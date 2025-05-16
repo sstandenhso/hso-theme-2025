@@ -263,6 +263,7 @@ function register_custom_javascript() {
 	wp_enqueue_script('nav-background-opacity', get_theme_file_uri('build/js/nav-background-opacity.js'), '', '', true);
 	wp_enqueue_script('swiper', get_theme_file_uri('build/js/swiper.js'), '', '', true);
 	wp_enqueue_script('loggedInMenuToggle', get_theme_file_uri('build/js/loggedInMenuToggle.js'), '', '', true);
+	wp_enqueue_script('contact-modal', get_theme_file_uri('assets/js/contact-modal.js'), '', '', true);
 	wp_enqueue_script('cookie-consent-force-refresh', get_theme_file_uri('build/js/cookie-consent-force-refresh.js'), '', '', true);
 }
 
