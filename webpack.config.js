@@ -16,6 +16,7 @@ const glob = require( 'glob' );
 module.exports = {
     // mode: 'production',
 	...defaultConfig,
+  cache: false,
     optimization: {
         minimizer: [
           // For webpack@5 you can use the `...` syntax to extend existing minimizers (i.e. `terser-webpack-plugin`), uncomment the next line
@@ -24,6 +25,7 @@ module.exports = {
         ],
         minimize: true,
         minimizer: [new TerserPlugin()],
+        sideEffects: true
       },
 	...{
 		entry: {
@@ -54,6 +56,7 @@ module.exports = {
               }),
 		]
 	},
+  
     stats: {
         errorDetails: true
     }
