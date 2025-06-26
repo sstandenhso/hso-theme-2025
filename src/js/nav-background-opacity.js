@@ -2,7 +2,7 @@ const header = document.getElementById('site-header-main');
 const hero = document.querySelector(".banner-hero");
 
 document.addEventListener("DOMContentLoaded", function(arg) {
-    if(hero) {
+    if(hero && !hero.classList.contains("banner-hero-light-bg")) {
         header.classList.add("background-opacity-0");
     }
 });
