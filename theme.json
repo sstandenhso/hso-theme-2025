@@ -337,6 +337,11 @@
 					"slug": "sagittal-blue"
 				},
 				{
+					"color": "#f3f4f6",
+					"name": "Smilers Grey BG",
+					"slug": "Smilers Grey BG"
+				},
+				{
 					"slug": "hso-button-gradient",
 					"color": "linear-gradient(to right, var(--wp--preset--color--hso-red-50) 7%, var(--wp--preset--color--hso-blue-50) 93%)",
 					"name": "HSO Button Gradient"

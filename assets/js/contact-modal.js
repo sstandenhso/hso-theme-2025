@@ -3,7 +3,7 @@
 const closeModalButton = document.createElement("span");
 closeModalButton.appendChild(document.createTextNode("\u00D7"));
 closeModalButton.classList.add("close");
-closeModalButton.id = "close-contact-modal";
+closeModalButton.classList.add("close-contact-modal");
 
 function openModal (id) {
     const modal = document.getElementById(id);

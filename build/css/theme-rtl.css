@@ -1116,7 +1116,7 @@ footer:has(#site-footer) {
   }
 }
 
-#contact-modal {
+#contact-modal, #student-packages-modal {
   display: none;
 }
 
@@ -1130,6 +1130,7 @@ footer:has(#site-footer) {
   overflow: auto;
   background-color: rgba(0, 0, 0, 0.6);
   z-index: 100;
+  margin-block-start: 0 !important;
 }
 .modal .inner-content {
   width: 80%;
