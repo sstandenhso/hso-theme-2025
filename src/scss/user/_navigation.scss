@@ -1,7 +1,9 @@
 //Sticky header
 .header-sticky {
-    position: fixed !important;
+    position: sticky !important;
     width: 100%;
+    top: 0;
+    z-index: 1000;
 }
 
 .site-header-upper--inner-content {

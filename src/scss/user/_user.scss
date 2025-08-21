@@ -3,6 +3,11 @@
 // Use this to write your custom SCSS
 //
 
+body {
+    margin: 0;
+    position: relative;
+}
+
 .header-fixed {
     position: fixed;
     top: 0;
@@ -140,5 +145,19 @@ footer:has(#site-footer) {
     &:hover {
         cursor: pointer;
         color: $hso-blue-70;
+    }
+}
+
+.has-layout-grid-large {
+    @media screen and (min-width: 800px) {
+        display: grid;
+        grid-template-columns: repeat(3, 1fr);
+        gap: 30px;
+    }
+}
+
+.grid-5-col {
+    @media screen and (min-width: 800px) {
+        grid-template-columns: repeat(5, 1fr);    
     }
 }
