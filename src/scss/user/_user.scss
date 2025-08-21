@@ -148,16 +148,8 @@ footer:has(#site-footer) {
     }
 }
 
-.has-layout-grid-large {
+.large-screen-no-flex-wrap {
     @media screen and (min-width: 800px) {
-        display: grid;
-        grid-template-columns: repeat(3, 1fr);
-        gap: 30px;
-    }
-}
-
-.grid-5-col {
-    @media screen and (min-width: 800px) {
-        grid-template-columns: repeat(5, 1fr);    
+        flex-wrap: nowrap !important;
     }
 }
