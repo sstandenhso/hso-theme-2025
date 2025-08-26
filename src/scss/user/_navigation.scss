@@ -54,7 +54,8 @@
         gap: 10px;
     }
 
-    .wp-block-navigation-submenu.has-child {
+    .wp-block-navigation-submenu.has-child,
+    .nav-button {
         display: flex;
         flex-wrap: nowrap;
         padding: 15px 10px !important;
