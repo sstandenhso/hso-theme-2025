@@ -33,11 +33,9 @@ module.exports = {
 			      'css/theme': path.resolve( process.cwd(), 'src/scss', 'theme.scss' ),
             //js
             'js/submenu': path.resolve( process.cwd(), 'src/js', 'submenu.js' ),
-            'js/mobile-nav': path.resolve( process.cwd(), 'src/js', 'mobile-nav.js' ),
             'js/product-details-image-carousel': path.resolve( process.cwd(), 'src/js', 'product-details-image-carousel.js' ),
             'js/swiper': path.resolve( process.cwd(), 'src/js', 'swiper.js' ),
-            'js/cookie-consent-force-refresh': path.resolve( process.cwd(), 'src/js', 'cookie-consent-force-refresh.js' ),
-            'js/loggedInMenuToggle': path.resolve( process.cwd(), 'src/js', 'loggedInMenuToggle.js' )
+            'js/cookie-consent-force-refresh': path.resolve( process.cwd(), 'src/js', 'cookie-consent-force-refresh.js' )
 		},
 		plugins: [
 			// Include WP's plugin config.

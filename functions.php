@@ -258,10 +258,8 @@ add_action( 'wp_enqueue_scripts', 'register_custom_theme_stylesheet' );
 function register_custom_javascript() {
 	wp_enqueue_script('mobile-nav', get_theme_file_uri('build/js/mobile-nav.js'), '', '', true);
 	wp_enqueue_script('submenu', get_theme_file_uri('build/js/submenu.js'), '', '', true);
-	wp_enqueue_script('submenu', get_theme_file_uri('build/js/mobile-nav.js'), '', '', true);
 	wp_enqueue_script('product-detail-image-carousel', get_theme_file_uri('build/js/product-details-image-carousel.js'), '', '', true);
 	wp_enqueue_script('swiper', get_theme_file_uri('build/js/swiper.js'), '', '', true);
-	wp_enqueue_script('loggedInMenuToggle', get_theme_file_uri('build/js/loggedInMenuToggle.js'), '', '', true);
 	wp_enqueue_script('contact-modal', get_theme_file_uri('assets/js/contact-modal.js'), '', '', true);
 	wp_enqueue_script('cookie-consent-force-refresh', get_theme_file_uri('build/js/cookie-consent-force-refresh.js'), '', '', true);
 }
